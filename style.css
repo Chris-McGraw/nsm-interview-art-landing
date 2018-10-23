@@ -90,6 +90,34 @@ ul {
   color: rgb(255, 255, 255);
 }
 
+#searchbar {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 19;
+  top: 5px;
+  left: 963px;
+
+  width: 177px;
+  height: 27px;
+  padding-left: 12px;
+
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(17, 17, 17);
+
+  background-image: url("https://res.cloudinary.com/dtwyohvli/image/upload/v1540317166/nsm-art-landing/magnifying-glass.png");
+  background-repeat: no-repeat;
+  background-position: 155px 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: text;
+}
+
 #section-1-header {
   position: absolute;
   z-index: 9;
