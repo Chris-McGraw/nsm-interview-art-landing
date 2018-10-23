@@ -3,11 +3,134 @@
   margin: 0;
   padding: 0;
 
-  -moz-user-select: none;
-  user-select: none;
+  /* -moz-user-select: none;
+  user-select: none; */
   cursor: default;
 }
 
 body {
   background-color: rgba(255, 255, 255);
+}
+
+#section-1-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#navbar {
+  position: absolute;
+  z-index: 15;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 38px;
+  margin: auto;
+
+  background-color: rgba(0, 0, 0, 0.502);
+}
+
+ul {
+  list-style: none;
+}
+
+#navigation-menu {
+  position: absolute;
+  display: inline;
+  z-index: 25;
+  left: 0;
+
+  width: 400px;
+  height: 38px;
+}
+
+.nav-menu-item {
+  position: absolute;
+  z-index: 24;
+  top: 14px;
+
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+
+  cursor: pointer;
+}
+
+#menu-home {
+  left: 30px;
+}
+
+#menu-what-we-do {
+  left: 95px;
+}
+
+#menu-testimonial {
+  left: 205px;
+}
+
+#menu-contact {
+  left: 305px;
+}
+
+#switch-logo {
+  position: absolute;
+  z-index: 17;
+  top: 8px;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Nautilus Pompilius";
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+
+#section-1-header {
+  position: absolute;
+  z-index: 9;
+  top: 266px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+#section-1-button-header {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 11;
+  top: 359px;
+  left: 0;
+  right: 0;
+
+  width: 208px;
+  height: 47px;
+  margin: auto;
+
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+
+  background-color: #54d154;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
 }
