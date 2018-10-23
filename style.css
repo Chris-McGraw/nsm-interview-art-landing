@@ -30,7 +30,7 @@ body {
   height: 38px;
   margin: auto;
 
-  background-color: rgba(0, 0, 0, 0.502);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 0.502), rgba(0, 0, 0, 0.0));
 }
 
 ul {
@@ -101,6 +101,7 @@ ul {
   width: 177px;
   height: 27px;
   padding-left: 12px;
+  padding-right: 30px;
 
   line-height: 1.2;
   font-family: "Proxima Nova";
