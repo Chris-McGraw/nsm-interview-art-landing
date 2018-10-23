@@ -12,6 +12,10 @@ body {
   background-color: rgba(255, 255, 255);
 }
 
+.hidden {
+  display: none;
+}
+
 #section-1-background {
   position: absolute;
   left: 0;
@@ -50,7 +54,7 @@ ul {
 .nav-menu-item {
   position: absolute;
   z-index: 24;
-  top: 14px;
+  top: 10px;
 
   line-height: 1.2;
   font-family: "Proxima Nova";
@@ -74,6 +78,50 @@ ul {
 
 #menu-contact {
   left: 305px;
+}
+
+#selection-home {
+  position: absolute;
+  z-index: 16;
+  left: 30px;
+
+  width: 42px;
+  height: 5px;
+
+  background-color: #54d154;
+}
+
+#selection-what-we-do {
+  position: absolute;
+  z-index: 16;
+  left: 95px;
+
+  width: 90px;
+  height: 5px;
+
+  background-color: #54d154;
+}
+
+#selection-testimonial {
+  position: absolute;
+  z-index: 16;
+  left: 205px;
+
+  width: 80px;
+  height: 5px;
+
+  background-color: #54d154;
+}
+
+#selection-contact {
+  position: absolute;
+  z-index: 16;
+  left: 305px;
+
+  width: 78px;
+  height: 5px;
+
+  background-color: #54d154;
 }
 
 #switch-logo {
