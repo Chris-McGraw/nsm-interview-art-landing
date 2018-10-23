@@ -163,3 +163,34 @@ ul {
 
   cursor: pointer;
 }
+
+#section-1-button-scroll {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 8;
+  top: 622px;
+  left: 0;
+  right:0;
+
+  width: 120px;
+  height: 25px;
+  margin: auto;
+  padding-left: 12px;
+
+  text-align: left;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(17, 17, 17);
+
+  background-image: url("https://res.cloudinary.com/dtwyohvli/image/upload/v1540319535/nsm-art-landing/scroll-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 100px 8px;
+  background-color: rgba(255, 255, 255, 0.702);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
+}
