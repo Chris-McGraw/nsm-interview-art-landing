@@ -10,12 +10,15 @@
 
 body {
   background-color: rgba(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.88);
 }
 
 .hidden {
   display: none;
 }
 
+
+/* -------------------------- SECTION 1 CONTAINER -------------------------- */
 #section-1-background {
   position: absolute;
   left: 0;
@@ -241,4 +244,67 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+
+/* -------------------------- SECTION 2 CONTAINER -------------------------- */
+#section-2-container {
+  position: absolute;
+  z-index: 29;
+  top: 659px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 577px;
+  margin: auto;
+
+  background-color: rgb(255, 255, 255);
+}
+
+#section-2-header {
+  position: absolute;
+  z-index: 31;
+  top: 40.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: rgb(130, 129, 129);
+}
+
+#section-2-header-accent {
+  position: absolute;
+  z-index: 32;
+  top: 81px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: #828181;
+}
+
+#section-2-header-sub {
+  position: absolute;
+  z-index: 34;
+  top: 93px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(183, 179, 179);
 }
