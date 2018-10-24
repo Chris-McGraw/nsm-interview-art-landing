@@ -860,3 +860,80 @@ ul {
 
   cursor: pointer;
 }
+
+
+/* -------------------------- SECTION 6 CONTAINER -------------------------- */
+#section-6-container {
+  position: absolute;
+  z-index: 150;
+  top: 2823px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 576px;
+  margin: auto;
+
+  background-color: #54d154;
+}
+
+#section-6-header {
+  position: absolute;
+  z-index: 153;
+  top: 34.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: rgb(32, 123, 32);
+}
+
+#section-6-header-accent {
+  position: absolute;
+  z-index: 154;
+  top: 75px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: rgb(32, 123, 32);
+}
+
+#section-6-header-sub {
+  position: absolute;
+  z-index: 216;
+  top: 89px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(43, 155, 43);
+}
+
+#section-6-container-accent {
+  position: absolute;
+  z-index: 151;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 94px;
+  margin: auto;
+
+  background-color: rgb(62, 186, 62);
+}
