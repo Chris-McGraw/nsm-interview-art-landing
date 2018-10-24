@@ -533,6 +533,8 @@ ul {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(43, 155, 43);
   border-radius: 30px;
+
+  cursor: pointer;
 }
 
 #work-menu-highlight-left {
@@ -546,6 +548,8 @@ ul {
 
   background-color: rgb(43, 155, 43);
   border-radius: 30px 0px 0px 30px;
+
+  cursor: pointer;
 }
 
 #work-menu-line-right {
@@ -569,6 +573,8 @@ ul {
   line-height: 1.2;
   font-family: "Proxima Nova";
   font-size: 16px;
+
+  cursor: pointer;
 }
 
 #work-menu-photography {
@@ -587,4 +593,49 @@ ul {
   left: 675.937px;
 
   color: rgb(43, 155, 43);
+}
+
+#view-more-work-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 96;
+  top: 665px;
+  left: 492px;
+
+  width: 186px;
+  height: 40px;
+  padding-left: 20px;
+
+  text-align: left;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+
+  background-image: url("https://res.cloudinary.com/dtwyohvli/image/upload/v1540351393/nsm-art-landing/view-more-work-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 155px 16px;
+  background-color: rgb(43, 155, 43);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
+}
+
+
+/* -------------------------- SECTION 4 CONTAINER -------------------------- */
+#section-4-container {
+  position: absolute;
+  z-index: 110;
+  top: 1984px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 342px;
+  margin: auto;
+
+  background-color: rgb(255, 255, 255);
 }
