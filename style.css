@@ -444,3 +444,66 @@ ul {
 #thumbnail-right-button {
   left: 906px;
 }
+
+
+/* -------------------------- SECTION 3 CONTAINER -------------------------- */
+#section-3-container {
+  position: absolute;
+  z-index: 67;
+  top: 1236px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 748px;
+  margin: auto;
+
+  background-color: #54d154;
+}
+
+#section-3-header {
+  position: absolute;
+  z-index: 91;
+  top: 40.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: #207b20;
+}
+
+#section-3-header-accent {
+  position: absolute;
+  z-index: 92;
+  top: 81px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: #207b20;
+}
+
+#section-3-header-sub {
+  position: absolute;
+  z-index: 94;
+  top: 93px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(43, 155, 43);
+}
