@@ -964,3 +964,49 @@ ul {
 
   cursor: pointer;
 }
+
+
+/* -------------------------- SECTION 7 CONTAINER -------------------------- */
+#section-7-container {
+  position: absolute;
+  z-index: 223;
+  top: 3397px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 622px;
+  margin: auto;
+
+  background-color: rgb(51, 51, 51);
+}
+
+
+/* -------------------------- SECTION 8 CONTAINER -------------------------- */
+#section-8-container {
+  position: absolute;
+  z-index: 309;
+  top: 3836px;
+  left: 0;
+  right: 0;
+
+  width: 1171px;
+  height: 148px;
+  margin: auto;
+
+  background-color: rgb(34, 34, 34);
+}
+
+#section-8-container-accent {
+  position: absolute;
+  z-index: 320;
+  top: 3984px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 35px;
+  margin: auto;
+
+  background-color: rgb(17, 17, 17);
+}
