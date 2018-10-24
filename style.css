@@ -686,3 +686,87 @@ ul {
   font-size: 16px;
   color: rgb(183, 179, 179);
 }
+
+#testimonial-arrow-left {
+  position: absolute;
+  z-index: 10;
+  top: 190px;
+  left: 170px;
+
+  cursor: pointer;
+}
+
+#testimonial-body {
+  position: absolute;
+  z-index: 116;
+  top: 173.01px;
+  left: 0;
+  right: 0;
+
+  width: 440px;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+}
+
+#testimonial-arrow-right {
+  position: absolute;
+  z-index: 10;
+  top: 190px;
+  right: 170px;
+
+  cursor: pointer;
+}
+
+#testimonial-client-photo {
+  position: absolute;
+  z-index: 120;
+  top: 243px;
+  left: 489px;
+}
+
+#testimonial-client-name {
+  position: absolute;
+  z-index: 118;
+  top: 248.01px;
+  left: 543.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+}
+
+#testimonial-client-title {
+  position: absolute;
+  z-index: 119;
+  top: 268.135px;
+  left: 542.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+}
+
+
+/* -------------------------- SECTION 5 CONTAINER -------------------------- */
+#section-5-container {
+  position: absolute;
+  z-index: 127;
+  top: 2326px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 497px;
+  margin: auto;
+
+  background-color: rgb(242, 241, 241);
+}
