@@ -937,3 +937,30 @@ ul {
 
   background-color: rgb(62, 186, 62);
 }
+
+#team-work-with-us-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 218;
+  top: 509px;
+  left: 498px;
+
+  width: 175px;
+  height: 40px;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+
+  background-color: #54d154;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+
+  cursor: pointer;
+}
