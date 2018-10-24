@@ -308,3 +308,139 @@ ul {
   font-size: 16px;
   color: rgb(183, 179, 179);
 }
+
+.section-2-thumbnail {
+  position: absolute;
+  top: 181px;
+  z-index: 37;
+
+  width: 142px;
+  height: 142px;
+
+  background-color: #e1f3e1;
+  border-radius: 30px;
+}
+
+#section-2-thumbnail-left {
+  left: 129px;
+}
+
+#section-2-thumbnail-mid {
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#section-2-thumbnail-right {
+  left: 889px;
+}
+
+.thumbnail-img {
+  position: absolute;
+  z-index: 38;
+  top: 215px;
+
+  width: 87px;
+  height: 74px;
+}
+
+#thumbnail-left-camera {
+  left: 157px;
+}
+
+#thumbnail-left-meter {
+  left: 541px;
+}
+
+#thumbnail-left-toolbox {
+  left: 915px;
+}
+
+.thumbnail-header {
+  position: absolute;
+  z-index: 36;
+  top: 343.546px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(130, 129, 129);
+}
+
+#thumbnail-left-header {
+  left: 129.937px;
+}
+
+#thumbnail-mid-header {
+  left: 509.937px;
+}
+
+#thumbnail-right-header {
+  left: 888.937px;
+}
+
+.thumbnail-body {
+  position: absolute;
+  z-index: 39;
+  top: 388.313px;
+
+  width: 271px;
+  height: 69px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 15px;
+  color: rgb(130, 129, 129);
+}
+
+#thumbnail-left-body {
+  left: 57.612px;
+}
+
+#thumbnail-mid-body {
+  left: 437.612px;
+}
+
+#thumbnail-right-body {
+  left: 816.612px;
+}
+
+.thumbnail-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 41;
+  top: 484px;
+
+  width: 120px;
+  height: 30px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+
+  background-color: #54d154;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
+}
+
+#thumbnail-left-button {
+  left: 138px;
+}
+
+#thumbnail-mid-button {
+  left: 522px;
+}
+
+#thumbnail-right-button {
+  left: 906px;
+}
