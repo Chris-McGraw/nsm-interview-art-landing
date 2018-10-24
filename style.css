@@ -775,3 +775,88 @@ ul {
 
   background-color: rgb(242, 241, 241);
 }
+
+#section-5-header {
+  position: absolute;
+  z-index: 129;
+  top: 34.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: rgb(130, 129, 129);
+}
+
+#section-5-header-accent {
+  position: absolute;
+  z-index: 130;
+  top: 75px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: rgb(130, 129, 129);
+}
+
+#section-5-header-sub {
+  position: absolute;
+  z-index: 132;
+  top: 89px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(183, 179, 179);
+}
+
+#client-list-lg {
+  position: absolute;
+  z-index: 132;
+  top: 170px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#see-all-clients-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 134;
+  top: 405px;
+  left: 492px;
+
+  width: 186px;
+  height: 40px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: rgb(165, 157, 157);
+
+  background-image: url("https://res.cloudinary.com/dtwyohvli/image/upload/v1540397963/nsm-art-landing/see-all-clients-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 155px 16px;
+  background-color: rgb(221, 220, 220);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
+}
