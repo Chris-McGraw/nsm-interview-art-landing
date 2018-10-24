@@ -26,6 +26,11 @@ a {
   top: 680px;
 }
 
+#testimonial-shortcut {
+  position: absolute;
+  top: 2002px;
+}
+
 .hidden {
   display: none;
 }
@@ -685,4 +690,323 @@ ul {
   font-family: "Open Sans";
   font-size: 16px;
   color: rgb(183, 179, 179);
+}
+
+#testimonial-arrow-left {
+  position: absolute;
+  z-index: 10;
+  top: 190px;
+  left: 170px;
+
+  cursor: pointer;
+}
+
+#testimonial-body {
+  position: absolute;
+  z-index: 116;
+  top: 173.01px;
+  left: 0;
+  right: 0;
+
+  width: 440px;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+}
+
+#testimonial-arrow-right {
+  position: absolute;
+  z-index: 10;
+  top: 190px;
+  right: 170px;
+
+  cursor: pointer;
+}
+
+#testimonial-client-photo {
+  position: absolute;
+  z-index: 120;
+  top: 243px;
+  left: 489px;
+}
+
+#testimonial-client-name {
+  position: absolute;
+  z-index: 118;
+  top: 248.01px;
+  left: 543.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+}
+
+#testimonial-client-title {
+  position: absolute;
+  z-index: 119;
+  top: 268.135px;
+  left: 542.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+}
+
+
+/* -------------------------- SECTION 5 CONTAINER -------------------------- */
+#section-5-container {
+  position: absolute;
+  z-index: 127;
+  top: 2326px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 497px;
+  margin: auto;
+
+  background-color: rgb(242, 241, 241);
+}
+
+#section-5-header {
+  position: absolute;
+  z-index: 129;
+  top: 34.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: rgb(130, 129, 129);
+}
+
+#section-5-header-accent {
+  position: absolute;
+  z-index: 130;
+  top: 75px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: rgb(130, 129, 129);
+}
+
+#section-5-header-sub {
+  position: absolute;
+  z-index: 132;
+  top: 89px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(183, 179, 179);
+}
+
+#client-list-lg {
+  position: absolute;
+  z-index: 132;
+  top: 170px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#see-all-clients-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 134;
+  top: 405px;
+  left: 492px;
+
+  width: 186px;
+  height: 40px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: rgb(165, 157, 157);
+
+  background-image: url("https://res.cloudinary.com/dtwyohvli/image/upload/v1540397963/nsm-art-landing/see-all-clients-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 155px 16px;
+  background-color: rgb(221, 220, 220);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+
+  cursor: pointer;
+}
+
+
+/* -------------------------- SECTION 6 CONTAINER -------------------------- */
+#section-6-container {
+  position: absolute;
+  z-index: 150;
+  top: 2823px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 576px;
+  margin: auto;
+
+  background-color: #54d154;
+}
+
+#section-6-header {
+  position: absolute;
+  z-index: 153;
+  top: 34.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+  color: rgb(32, 123, 32);
+}
+
+#section-6-header-accent {
+  position: absolute;
+  z-index: 154;
+  top: 75px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+
+  background-color: rgb(32, 123, 32);
+}
+
+#section-6-header-sub {
+  position: absolute;
+  z-index: 216;
+  top: 89px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: rgb(43, 155, 43);
+}
+
+#section-6-container-accent {
+  position: absolute;
+  z-index: 151;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 94px;
+  margin: auto;
+
+  background-color: rgb(62, 186, 62);
+}
+
+#team-work-with-us-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 218;
+  top: 509px;
+  left: 498px;
+
+  width: 175px;
+  height: 40px;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+
+  background-color: #54d154;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+
+  cursor: pointer;
+}
+
+
+/* -------------------------- SECTION 7 CONTAINER -------------------------- */
+#section-7-container {
+  position: absolute;
+  z-index: 223;
+  top: 3397px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 622px;
+  margin: auto;
+
+  background-color: rgb(51, 51, 51);
+}
+
+
+/* -------------------------- SECTION 8 CONTAINER -------------------------- */
+#section-8-container {
+  position: absolute;
+  z-index: 309;
+  top: 3836px;
+  left: 0;
+  right: 0;
+
+  width: 1171px;
+  height: 148px;
+  margin: auto;
+
+  background-color: rgb(34, 34, 34);
+}
+
+#section-8-container-accent {
+  position: absolute;
+  z-index: 320;
+  top: 3984px;
+  left: 0;
+  right: 0;
+
+  width: 1170px;
+  height: 35px;
+  margin: auto;
+
+  background-color: rgb(17, 17, 17);
 }
