@@ -26,6 +26,11 @@ a {
   top: 680px;
 }
 
+#testimonial-shortcut {
+  position: absolute;
+  top: 2002px;
+}
+
 .hidden {
   display: none;
 }
