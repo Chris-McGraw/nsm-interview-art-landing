@@ -1507,8 +1507,58 @@ ul {
   opacity: 0.7;
 }
 
+.contact-us-user-info {
+  -webkit-appearance: none;
+  position: absolute;
+  z-index: 282;
+  left: 818px;
 
+  width: 322px;
+  height: 30px;
+  padding-left: 14px;
 
+  text-align: left;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  color: rgb(119, 119, 119);
+  font-size: 16px;
+
+  background-color: rgb(68, 68, 68);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+
+  cursor: text;
+}
+
+#contact-us-user-name {
+  top: 178px;
+}
+
+#contact-us-user-email {
+  top: 212px;
+}
+
+#contact-us-user-message {
+  top: 246px;
+
+  height: 128px;
+  padding-top: 6px;
+
+  resize: none;
+}
+
+#contact-us-user-submit {
+  top: 378px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(43, 155, 43);
+
+  cursor: pointer;
+}
 
 
 /* -------------------------- SECTION 8 CONTAINER -------------------------- */
