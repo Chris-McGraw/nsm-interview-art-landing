@@ -1347,8 +1347,136 @@ ul {
   left: 576px;
 }
 
+.recent-posts-img {
+  position: absolute;
+  z-index: 230;
+  left: 441px;
 
+  width: 53px;
+  height: 53px;
 
+  cursor: pointer;
+}
+
+#recent-posts-img-1 {
+  top: 73px;
+}
+
+#recent-posts-img-2 {
+  top: 138px;
+}
+
+#recent-posts-img-3 {
+  top: 202px;
+}
+
+#recent-posts-img-4 {
+  top: 268px;
+}
+
+#recent-posts-img-5 {
+  top: 332px;
+}
+
+.recent-posts-subhead {
+  position: absolute;
+  z-index: 232;
+  left: 498.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+
+  cursor: pointer;
+}
+
+#recent-posts-subhead-1 {
+  top: 75.863px;
+}
+
+#recent-posts-subhead-2 {
+  top: 140.863px;
+}
+
+#recent-posts-subhead-3 {
+  top: 204.863px;
+}
+
+#recent-posts-subhead-4 {
+  top: 270.863px;
+}
+
+#recent-posts-subhead-5 {
+  top: 334.863px;
+}
+
+.recent-posts-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 234;
+  left: 501px;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+
+  cursor: pointer;
+}
+
+#recent-posts-button-1 {
+  top: 99px;
+
+  width: 96px;
+  height: 18px;
+
+  background-color: rgb(84, 209, 84);
+}
+
+#recent-posts-button-2 {
+  top: 164px;
+
+  width: 92px;
+  height: 18px;
+
+  background-color: rgb(255, 186, 0);
+}
+
+#recent-posts-button-3 {
+  top: 228px;
+
+  width: 122px;
+  height: 18px;
+
+  background-color: rgb(8, 157, 234);
+}
+
+#recent-posts-button-4 {
+  top: 294px;
+
+  width: 62px;
+  height: 18px;
+
+  background-color: rgb(243, 77, 4);
+}
+
+#recent-posts-button-5 {
+  top: 358px;
+
+  width: 92px;
+  height: 18px;
+
+  background-color: rgb(255, 186, 0);
+}
 
 #contact-us-header {
   left: 931.545px;
