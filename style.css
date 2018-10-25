@@ -11,6 +11,8 @@
 body {
   background-color: rgba(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.88);
+
+  overflow-x: hidden;
 }
 
 a {
@@ -905,8 +907,9 @@ ul {
 
   width: 186px;
   height: 40px;
+  padding-left: 30px;
 
-  text-align: center;
+  text-align: left;
   line-height: 1.2;
   font-family: "Proxima Nova";
   font-size: 18px;
@@ -1273,9 +1276,52 @@ ul {
 
 
 /* @media screen and (max-width: 1180px) {
+  #navbar {
+    width: 100%;
+  }
+
+  #searchbar {
+    left: auto;
+    right: 26px;
+  }
+
   #section-2-container {
     width: 100%;
 
-    background-color: blue;
+    background-color: darkGray;
+  }
+
+  #section-3-container {
+    width: 100%;
+  }
+
+  #section-4-container {
+    width: 100%;
+
+    background-color: darkGray;
+  }
+
+  #section-5-container {
+    width: 100%;
+  }
+
+  #section-6-container {
+    width: 100%;
+  }
+
+  #section-6-container-accent {
+    width: 100%;
+  }
+
+  #section-7-container {
+    width: 100%;
+  }
+
+  #section-8-container {
+    width: 100%;
+  }
+
+  #section-8-container-accent {
+    width: 100%;
   }
 } */
