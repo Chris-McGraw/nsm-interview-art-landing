@@ -11,14 +11,20 @@
 body {
   background-color: rgba(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.88);
+
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
-
   color: inherit;
 
   cursor: inherit;
+}
+
+#home-shortcut {
+  position: absolute;
+  top: 0;
 }
 
 #what-we-do-shortcut {
@@ -29,6 +35,16 @@ a {
 #testimonial-shortcut {
   position: absolute;
   top: 2002px;
+}
+
+#contact-us-shortcut {
+  position: absolute;
+  bottom: -10000px;
+}
+
+#work-with-us-shortcut {
+  position: absolute;
+  top: 2840px;
 }
 
 .hidden {
@@ -905,8 +921,9 @@ ul {
 
   width: 186px;
   height: 40px;
+  padding-left: 30px;
 
-  text-align: center;
+  text-align: left;
   line-height: 1.2;
   font-family: "Proxima Nova";
   font-size: 18px;
@@ -1238,6 +1255,261 @@ ul {
   background-color: rgb(51, 51, 51);
 }
 
+.section-7-header {
+  position: absolute;
+  z-index: 297;
+  top: 27.523px;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: rgb(221, 221, 221);
+}
+
+.section-7-header-accent {
+  position: absolute;
+  z-index: 298;
+  top: 53px;
+
+  width: 30px;
+  height: 2px;
+
+  background-color: rgb(221, 221, 221);
+}
+
+#about-us-header {
+  left: 150.525px;
+}
+
+#about-us-header-accent {
+  left: 178px;
+}
+
+#about-us-body {
+  position: absolute;
+  z-index: 295;
+  top: 76.735px;
+  left: 32.106px;
+
+  width: 314px;
+  height: 226px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+}
+
+#about-us-social-container {
+  position: absolute;
+  z-index: 301;
+  top: 334px;
+  left: 152px;
+
+  width: 84px;
+  height: 28px;
+
+  background-color: rgb(230, 231, 230);
+  border-radius: 30px;
+}
+
+.about-us-social-icon {
+  position: absolute;
+  z-index: 302;
+  top: 338px;
+
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+
+#dribbble-link-about-us {
+  left: 157px;
+}
+
+#facebook-link-about-us {
+  left: 184px;
+}
+
+#twitter-link-about-us {
+  left: 211px;
+}
+
+#recent-posts-header {
+  left: 528.513px;
+}
+
+#recent-posts-header-accent {
+  left: 576px;
+}
+
+.recent-posts-img {
+  position: absolute;
+  z-index: 230;
+  left: 441px;
+
+  width: 53px;
+  height: 53px;
+
+  cursor: pointer;
+}
+
+#recent-posts-img-1 {
+  top: 73px;
+}
+
+#recent-posts-img-2 {
+  top: 138px;
+}
+
+#recent-posts-img-3 {
+  top: 202px;
+}
+
+#recent-posts-img-4 {
+  top: 268px;
+}
+
+#recent-posts-img-5 {
+  top: 332px;
+}
+
+.recent-posts-subhead {
+  position: absolute;
+  z-index: 232;
+  left: 498.938px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+
+  cursor: pointer;
+}
+
+#recent-posts-subhead-1 {
+  top: 75.863px;
+}
+
+#recent-posts-subhead-2 {
+  top: 140.863px;
+}
+
+#recent-posts-subhead-3 {
+  top: 204.863px;
+}
+
+#recent-posts-subhead-4 {
+  top: 270.863px;
+}
+
+#recent-posts-subhead-5 {
+  top: 334.863px;
+}
+
+.recent-posts-button {
+  -webkit-appearance: none;
+
+  position: absolute;
+  z-index: 234;
+  left: 501px;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+
+  cursor: pointer;
+}
+
+#recent-posts-button-1 {
+  top: 99px;
+
+  width: 96px;
+  height: 18px;
+
+  background-color: rgb(84, 209, 84);
+}
+
+#recent-posts-button-2 {
+  top: 164px;
+
+  width: 92px;
+  height: 18px;
+
+  background-color: rgb(255, 186, 0);
+}
+
+#recent-posts-button-3 {
+  top: 228px;
+
+  width: 122px;
+  height: 18px;
+
+  background-color: rgb(8, 157, 234);
+}
+
+#recent-posts-button-4 {
+  top: 294px;
+
+  width: 62px;
+  height: 18px;
+
+  background-color: rgb(243, 77, 4);
+}
+
+#recent-posts-button-5 {
+  top: 358px;
+
+  width: 92px;
+  height: 18px;
+
+  background-color: rgb(255, 186, 0);
+}
+
+#contact-us-header {
+  left: 931.545px;
+}
+
+#contact-us-header-accent {
+  left: 969px;
+}
+
+#contact-info {
+  position: absolute;
+  z-index: 280;
+  top: 69.001px;
+  left: 873.926px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  color: rgb(204, 204, 204);
+}
+
+#contact-email {
+  cursor: pointer;
+}
+
+#contact-email:hover {
+  opacity: 0.7;
+}
+
+
+
+
 
 /* -------------------------- SECTION 8 CONTAINER -------------------------- */
 #section-8-container {
@@ -1273,9 +1545,52 @@ ul {
 
 
 /* @media screen and (max-width: 1180px) {
+  #navbar {
+    width: 100%;
+  }
+
+  #searchbar {
+    left: auto;
+    right: 26px;
+  }
+
   #section-2-container {
     width: 100%;
 
-    background-color: blue;
+    background-color: darkGray;
+  }
+
+  #section-3-container {
+    width: 100%;
+  }
+
+  #section-4-container {
+    width: 100%;
+
+    background-color: darkGray;
+  }
+
+  #section-5-container {
+    width: 100%;
+  }
+
+  #section-6-container {
+    width: 100%;
+  }
+
+  #section-6-container-accent {
+    width: 100%;
+  }
+
+  #section-7-container {
+    width: 100%;
+  }
+
+  #section-8-container {
+    width: 100%;
+  }
+
+  #section-8-container-accent {
+    width: 100%;
   }
 } */
