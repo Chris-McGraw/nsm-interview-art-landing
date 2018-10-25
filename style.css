@@ -986,6 +986,153 @@ ul {
   color: rgb(43, 155, 43);
 }
 
+.team-picture {
+  position: absolute;
+  z-index: 158;
+  top: 153px;
+
+  width: 124px;
+  height: 124px;
+}
+
+#team-pic-krisna {
+  left: 174px;
+}
+
+#team-pic-gabriel {
+  left: 349px;
+}
+
+#team-pic-adik {
+  left: 524px;
+}
+
+#team-pic-zan {
+  left: 697px;
+}
+
+#team-pic-faizal {
+  left: 872px;
+}
+
+.team-accent {
+  position: absolute;
+  z-index: 157;
+  top: 287px;
+
+  width: 2px;
+  height: 77px;
+
+  background-color: rgb(32, 123, 32);
+}
+
+#team-accent-krisna {
+  left: 233px;
+}
+
+#team-accent-gabriel {
+  left: 411px;
+}
+
+#team-accent-adik {
+  left: 584px;
+}
+
+#team-accent-zan {
+  left: 759px;
+}
+
+#team-accent-faizal {
+  left: 932px;
+}
+
+.team-name {
+  position: absolute;
+  z-index: 160;
+  top: 372.01px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+#team-name-krisna {
+  left: 186.938px;
+}
+
+#team-name-gabriel {
+  left: 359.938px;
+}
+
+#team-name-adik {
+  left: 544.937px;
+}
+
+#team-name-zan {
+  left: 737.905px;
+}
+
+#team-name-faizal {
+  left: 889.938px;
+}
+
+.team-social-container {
+  position: absolute;
+  z-index: 162;
+  top: 401px;
+
+  width: 84px;
+  height: 28px;
+
+  background-color: rgb(197, 233, 197);
+  border-radius: 30px;
+}
+
+#social-container-krisna {
+  left: 190px;
+}
+
+#social-container-gabriel {
+  left: 370px;
+}
+
+#social-container-adik {
+  left: 539px;
+}
+
+#social-container-zan {
+  left: 722px;
+}
+
+#social-container-faizal {
+  left: 887px;
+}
+
+.team-social-icon {
+  position: absolute;
+  z-index: 163;
+  top: 405px;
+
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+
+#dribbble-link-krisna {
+  left: 195px;
+}
+
+#behance-link-krisna {
+  left: 222px;
+}
+
+#twitter-link-krisna {
+  left: 249px;
+}
+
 #section-6-container-accent {
   position: absolute;
   z-index: 151;
