@@ -1607,8 +1607,28 @@ ul {
   background-color: rgb(16, 16, 16);
 }
 
+.as-seen-on-img {
+  position: absolute;
+  z-index: 320;
+  top: 70px;
 
+}
 
+#as-seen-on-cnn {
+  left: 90px;
+}
+
+#as-seen-on-tech-crunch {
+  left: 290px;
+}
+
+#as-seen-on-bbc {
+  left: 490px;
+}
+
+#as-seen-on-ny-times {
+  left: 740px;
+}
 
 #section-8-container-accent {
   position: absolute;
