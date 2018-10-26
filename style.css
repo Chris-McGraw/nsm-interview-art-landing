@@ -1576,6 +1576,40 @@ ul {
   background-color: rgb(34, 34, 34);
 }
 
+#section-8-header {
+  position: absolute;
+  z-index: 315;
+  top: 22.523px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: rgb(16, 16, 16);
+}
+
+#section-8-header-accent {
+  position: absolute;
+  z-index: 316;
+  top: 48px;
+  left: 0;
+  right: 0;
+
+  width: 30px;
+  height: 2px;
+  margin: auto;
+
+  background-color: rgb(16, 16, 16);
+}
+
+
+
+
 #section-8-container-accent {
   position: absolute;
   z-index: 320;
@@ -1589,6 +1623,9 @@ ul {
 
   background-color: rgb(17, 17, 17);
 }
+
+
+
 
 
 
