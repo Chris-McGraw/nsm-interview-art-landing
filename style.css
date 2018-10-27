@@ -1920,3 +1920,110 @@ ul {
     width: 100%;
   }
 }
+
+
+
+
+
+/* -------------------------- MEDIA QUERY <= 1080 -------------------------- */
+@media screen and (max-width: 1080px) {
+/* ------------------ SECTION 1 QUERY ------------------ */
+  #navbar {
+    width: 100%;
+  }
+
+  #searchbar {
+    left: auto;
+    right: 26px;
+  }
+
+
+/* ------------------ SECTION 2 QUERY ------------------ */
+  #section-2-container {
+    width: 100%;
+    height: 1377px;
+  }
+
+  #section-2-thumbnail-container-left {
+    top: 181px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #section-2-thumbnail-container-mid {
+    top: 581px;
+  }
+
+  #section-2-thumbnail-container-right {
+    top: 981px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+
+/* ------------------ SECTION 3 QUERY ------------------ */
+  #section-3-container {
+    top: 2036px;
+
+    width: 100%;
+    height: 748px;
+  }
+
+
+/* ------------------ SECTION 4 QUERY ------------------ */
+  #section-4-container {
+    width: 100%;
+
+    background-color: lightYellow;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 5 QUERY ------------------ */
+  #section-5-container {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 6 QUERY ------------------ */
+  #section-6-container {
+    width: 100%;
+
+    display: none;
+  }
+
+  #section-6-container-accent {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 7 QUERY ------------------ */
+  #section-7-container {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 8 QUERY ------------------ */
+  #section-8-container {
+    width: 100%;
+
+    display: none;
+  }
+
+  #section-8-container-accent {
+    width: 100%;
+
+    display: none;
+  }
+}
