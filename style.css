@@ -34,7 +34,7 @@ a {
 
 #testimonial-shortcut {
   position: absolute;
-  top: 2002px;
+  top: 2005px;
 }
 
 #contact-us-shortcut {
@@ -44,11 +44,51 @@ a {
 
 #work-with-us-shortcut {
   position: absolute;
-  top: 2840px;
+  top: 2844px;
 }
 
 .hidden {
   display: none;
+}
+
+.section-header-main {
+  position: absolute;
+  top: 40.9px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 20.5pt;
+}
+
+.section-header-accent-main {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  right: 0;
+
+  width: 43px;
+  height: 2px;
+  margin: auto;
+}
+
+.section-header-sub-main {
+  position: absolute;
+  top: 93px;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Open Sans";
+  font-size: 16px;
 }
 
 
@@ -297,49 +337,20 @@ ul {
 }
 
 #section-2-header {
-  position: absolute;
   z-index: 31;
-  top: 40.9px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Montserrat";
-  font-size: 20.5pt;
   color: rgb(130, 129, 129);
 }
 
 #section-2-header-accent {
-  position: absolute;
   z-index: 32;
-  top: 81px;
-  left: 0;
-  right: 0;
-
-  width: 43px;
-  height: 2px;
-  margin: auto;
 
   background-color: #828181;
 }
 
 #section-2-header-sub {
-  position: absolute;
   z-index: 34;
-  top: 93px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-size: 16px;
   color: rgb(183, 179, 179);
 }
 
@@ -496,49 +507,20 @@ ul {
 }
 
 #section-3-header {
-  position: absolute;
   z-index: 91;
-  top: 40.9px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Montserrat";
-  font-size: 20.5pt;
   color: #207b20;
 }
 
 #section-3-header-accent {
-  position: absolute;
   z-index: 92;
-  top: 81px;
-  left: 0;
-  right: 0;
-
-  width: 43px;
-  height: 2px;
-  margin: auto;
 
   background-color: #207b20;
 }
 
 #section-3-header-sub {
-  position: absolute;
   z-index: 94;
-  top: 93px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-size: 16px;
   color: rgb(43, 155, 43);
 }
 
@@ -724,49 +706,20 @@ ul {
 }
 
 #section-4-header {
-  position: absolute;
   z-index: 112;
-  top: 37.9px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Montserrat";
-  font-size: 20.5pt;
   color: rgb(130, 129, 129);
 }
 
 #section-4-header-accent {
-  position: absolute;
   z-index: 113;
-  top: 78px;
-  left: 0;
-  right: 0;
-
-  width: 43px;
-  height: 2px;
-  margin: auto;
 
   background-color: rgb(130, 129, 129);
 }
 
 #section-4-header-sub {
-  position: absolute;
   z-index: 115;
-  top: 90px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-size: 16px;
   color: rgb(183, 179, 179);
 }
 
@@ -855,49 +808,20 @@ ul {
 }
 
 #section-5-header {
-  position: absolute;
   z-index: 129;
-  top: 34.9px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Montserrat";
-  font-size: 20.5pt;
   color: rgb(130, 129, 129);
 }
 
 #section-5-header-accent {
-  position: absolute;
   z-index: 130;
-  top: 75px;
-  left: 0;
-  right: 0;
-
-  width: 43px;
-  height: 2px;
-  margin: auto;
 
   background-color: rgb(130, 129, 129);
 }
 
 #section-5-header-sub {
-  position: absolute;
   z-index: 132;
-  top: 89px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-size: 16px;
   color: rgb(183, 179, 179);
 }
 
@@ -957,49 +881,20 @@ ul {
 }
 
 #section-6-header {
-  position: absolute;
   z-index: 153;
-  top: 34.9px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  font-family: "Montserrat";
-  font-size: 20.5pt;
   color: rgb(32, 123, 32);
 }
 
 #section-6-header-accent {
-  position: absolute;
   z-index: 154;
-  top: 75px;
-  left: 0;
-  right: 0;
-
-  width: 43px;
-  height: 2px;
-  margin: auto;
 
   background-color: rgb(32, 123, 32);
 }
 
 #section-6-header-sub {
-  position: absolute;
   z-index: 216;
-  top: 89px;
-  left: 0;
-  right: 0;
 
-  margin: auto;
-
-  text-align: center;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-size: 16px;
   color: rgb(43, 155, 43);
 }
 
