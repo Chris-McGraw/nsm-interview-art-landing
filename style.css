@@ -1559,10 +1559,9 @@ ul {
 
 
 
-
-
-
-/* @media screen and (max-width: 1180px) {
+/* -------------------------- MEDIA QUERY <= 1180 -------------------------- */
+@media screen and (max-width: 1180px) {
+/* ------------------ SECTION 1 QUERY ------------------ */
   #navbar {
     width: 100%;
   }
@@ -1572,38 +1571,101 @@ ul {
     right: 26px;
   }
 
+
+/* ------------------ SECTION 2 QUERY ------------------ */
   #section-2-container {
     width: 100%;
 
     background-color: darkGray;
   }
 
+  #thumbnail-left-meter {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #thumbnail-mid-header {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #thumbnail-mid-body {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #thumbnail-mid-button {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+
+/* ------------------ SECTION 3 QUERY ------------------ */
   #section-3-container {
     width: 100%;
   }
 
+  #view-more-work-button {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+
+/* ------------------ SECTION 4 QUERY ------------------ */
   #section-4-container {
     width: 100%;
 
     background-color: darkGray;
   }
 
+
+/* ------------------ SECTION 5 QUERY ------------------ */
   #section-5-container {
     width: 100%;
   }
 
+  #see-all-clients-button {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+
+/* ------------------ SECTION 6 QUERY ------------------ */
   #section-6-container {
     width: 100%;
+  }
+
+  #team-work-with-us-button {
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
   #section-6-container-accent {
     width: 100%;
   }
 
+
+/* ------------------ SECTION 7 QUERY ------------------ */
   #section-7-container {
     width: 100%;
   }
 
+
+/* ------------------ SECTION 8 QUERY ------------------ */
   #section-8-container {
     width: 100%;
   }
@@ -1611,4 +1673,4 @@ ul {
   #section-8-container-accent {
     width: 100%;
   }
-} */
+}
