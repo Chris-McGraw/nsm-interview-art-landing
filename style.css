@@ -1713,6 +1713,203 @@ ul {
     width: 100%;
   }
 
+  .section-7-header {
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  .section-7-header-accent {
+    top: 25.477px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;;
+  }
+
+  #section-7-about-us-container {
+    position: absolute;
+    top: 27.523px;
+    left: 28px;
+    right: auto;
+
+    width: 330px;
+    height: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  #about-us-body {
+    top: 49.212px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #about-us-social-container {
+    top: 306.477px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  .about-us-social-icon {
+    top: 310.477px;
+  }
+
+  #dribbble-link-about-us {
+    left: 128px;
+  }
+
+  #facebook-link-about-us {
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #twitter-link-about-us {
+    left: 182px;
+  }
+
+  #section-7-recent-posts-container {
+    position: absolute;
+    top: 27.523px;
+    left: 0;
+    right: 0;
+
+    width: 330px;
+    height: auto;
+    margin: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  .recent-posts-img {
+    left: 24px;
+  }
+
+  #recent-posts-img-1 {
+    top: 45.477px;
+  }
+
+  #recent-posts-img-2 {
+    top: 110.477px;
+  }
+
+  #recent-posts-img-3 {
+    top: 174.477px;
+  }
+
+  #recent-posts-img-4 {
+    top: 240.477px;
+  }
+
+  #recent-posts-img-5 {
+    top: 304.477px;
+  }
+
+  .recent-posts-subhead {
+    left: 81.938px;
+  }
+
+  #recent-posts-subhead-1 {
+    top: 48.34px;
+  }
+
+  #recent-posts-subhead-2 {
+    top: 113.34px;
+  }
+
+  #recent-posts-subhead-3 {
+    top: 177.34px;
+  }
+
+  #recent-posts-subhead-4 {
+    top: 243.34px;
+  }
+
+  #recent-posts-subhead-5 {
+    top: 307.43px;
+  }
+
+  .recent-posts-button {
+    left: 84px;
+  }
+
+  #recent-posts-button-1 {
+    top: 71.477px;
+  }
+
+  #recent-posts-button-2 {
+    top: 136.477px;
+  }
+
+  #recent-posts-button-3 {
+    top: 200.477px;
+  }
+
+  #recent-posts-button-4 {
+    top: 266.477px;
+  }
+
+  #recent-posts-button-5 {
+    top: 330.477px;
+  }
+
+  #section-7-contact-us-container {
+    position: absolute;
+    top: 27.523px;
+    left: auto;
+    right: 28px;
+
+    width: 330px;
+    height: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  #contact-info {
+    top: 41.478px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  .contact-us-user-info {
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #contact-us-user-name {
+    top: 150.477px;
+  }
+
+  #contact-us-user-email {
+    top: 184.477px;
+  }
+
+  #contact-us-user-message {
+    top: 218.477px;
+  }
+
+  #contact-us-user-submit {
+    top: 350.477px;
+  }
+
 
 /* ------------------ SECTION 8 QUERY ------------------ */
   #section-8-container {
