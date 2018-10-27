@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   var $workMenuPhotographyButton = $("#work-menu-photography-button");
   var $workMenuPhotography = $("#work-menu-photography");
-  var $workMenuDesignButton = $("#section-3-menu");
+  var $workMenuDesignButton = $("#work-menu-design-button");
   var $workMenuDesign = $("#work-menu-design");
   var $workMenuPrintButton = $("#work-menu-print-button");
   var $workMenuPrint = $("#work-menu-print");

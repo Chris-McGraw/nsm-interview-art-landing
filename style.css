@@ -543,8 +543,8 @@ ul {
 #work-menu-photography-button {
   position: absolute;
   z-index: 102;
-  top: 167px;
-  left: 445px;
+  top: -1px;
+  left: -1px;
 
   width: 124px;
   height: 35px;
@@ -556,11 +556,27 @@ ul {
   cursor: pointer;
 }
 
+#work-menu-design-button {
+  position: absolute;
+  z-index: 101;
+  top: -1px;
+  left: 123px;
+
+  width: 88px;
+  height: 35px;
+
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(43, 155, 43);
+  border-bottom: 1px solid rgb(43, 155, 43);
+
+  cursor: pointer;
+}
+
 #work-menu-print-button {
   position: absolute;
   z-index: 102;
-  top: 167px;
-  left: 657px;
+  top: -1px;
+  right: -1px;
 
   width: 69px;
   height: 35px;
@@ -575,7 +591,9 @@ ul {
 .work-menu-item {
   position: absolute;
   z-index: 104;
-  top: 176.135px;
+
+  /* top: 176.135px; */
+  top: 8px;
 
   text-align: center;
   line-height: 1.2;
@@ -586,19 +604,22 @@ ul {
 }
 
 #work-menu-photography {
-  left: 460.937px;
+  /* left: 460.937px; */
+  left: 15px;
 
   color: rgb(255, 255, 255);
 }
 
 #work-menu-design {
-  left: 588.937px;
+  /* left: 588.937px; */
+  left: 143px;
 
   color: rgb(43, 155, 43);
 }
 
 #work-menu-print {
-  left: 675.937px;
+  /* left: 675.937px; */
+  left: 230px;
 
   color: rgb(43, 155, 43);
 }
@@ -1665,6 +1686,13 @@ ul {
 /* ------------------ SECTION 3 QUERY ------------------ */
   #section-3-container {
     width: 100%;
+  }
+
+  #section-3-menu {
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
   #view-more-work-button {
