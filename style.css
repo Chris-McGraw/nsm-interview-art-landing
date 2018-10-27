@@ -1579,32 +1579,81 @@ ul {
     background-color: darkGray;
   }
 
-  #thumbnail-left-meter {
-    left: 0;
-    right: 0;
+  #section-2-thumbnail-container-left {
+    position: absolute;
+    top: 181px;
+    left: 43px;
+    right: auto;
 
-    margin: auto;
+    width: 300px;
+    height: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-header {
+  #section-2-thumbnail-container-mid {
+    position: absolute;
+    top: 181px;
     left: 0;
     right: 0;
 
+    width: 300px;
+    height: auto;
     margin: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-body {
-    left: 0;
-    right: 0;
+  #section-2-thumbnail-container-right {
+    position: absolute;
+    top: 181px;
+    left: auto;
+    right: 43px;
 
-    margin: auto;
+    width: 300px;
+    height: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-button {
-    left: 0;
-    right: 0;
+  .section-2-thumbnail {
+    top: 0;
+    left: 0 !important;
+    right: 0!important;
 
-    margin: auto;
+    margin: auto !important;
+  }
+
+  .thumbnail-img {
+    top: 34px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-header {
+    top: 162.546px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-body {
+    top: 207.313px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-button {
+    top: 303px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
   }
 
 
