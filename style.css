@@ -1138,6 +1138,14 @@ ul {
   cursor: pointer;
 }
 
+.team-social-icon:hover {
+  opacity: 0.6;
+}
+
+.team-social-icon:active {
+  opacity: 1.0;
+}
+
 #dribbble-link-krisna {
   left: 195px;
 }
@@ -1325,6 +1333,14 @@ ul {
   height: 20px;
 
   cursor: pointer;
+}
+
+.about-us-social-icon:hover {
+  opacity: 0.6;
+}
+
+.about-us-social-icon:active {
+  opacity: 1.0;
 }
 
 #dribbble-link-about-us {
