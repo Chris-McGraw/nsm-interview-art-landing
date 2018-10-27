@@ -540,37 +540,60 @@ ul {
   cursor: pointer;
 }
 
-#work-menu-highlight-left {
+#work-menu-photography-button {
   position: absolute;
   z-index: 102;
-  top: 167px;
-  left: 445px;
+  top: -1px;
+  left: -1px;
 
   width: 124px;
   height: 35px;
 
   background-color: rgb(43, 155, 43);
+  border: 1px solid rgb(43, 155, 43);
   border-radius: 30px 0px 0px 30px;
 
   cursor: pointer;
 }
 
-#work-menu-line-right {
+#work-menu-design-button {
   position: absolute;
-  z-index: 103;
-  top: 168px;
-  left: 657px;
+  z-index: 101;
+  top: -1px;
+  left: 123px;
 
-  width: 1px;
-  height: 33px;
+  width: 88px;
+  height: 35px;
 
-  background-color: rgb(43, 155, 43);
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(43, 155, 43);
+  border-bottom: 1px solid rgb(43, 155, 43);
+
+  cursor: pointer;
+}
+
+#work-menu-print-button {
+  position: absolute;
+  z-index: 102;
+  top: -1px;
+  right: -1px;
+
+  width: 69px;
+  height: 35px;
+
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(43, 155, 43);
+  border-radius: 0px 30px 30px 0px;
+
+  cursor: pointer;
 }
 
 .work-menu-item {
   position: absolute;
   z-index: 104;
-  top: 176.135px;
+
+  /* top: 176.135px; */
+  top: 8px;
 
   text-align: center;
   line-height: 1.2;
@@ -581,19 +604,22 @@ ul {
 }
 
 #work-menu-photography {
-  left: 460.937px;
+  /* left: 460.937px; */
+  left: 15px;
 
   color: rgb(255, 255, 255);
 }
 
 #work-menu-design {
-  left: 588.937px;
+  /* left: 588.937px; */
+  left: 143px;
 
   color: rgb(43, 155, 43);
 }
 
 #work-menu-print {
-  left: 675.937px;
+  /* left: 675.937px; */
+  left: 230px;
 
   color: rgb(43, 155, 43);
 }
@@ -1579,38 +1605,94 @@ ul {
     background-color: darkGray;
   }
 
-  #thumbnail-left-meter {
-    left: 0;
-    right: 0;
+  #section-2-thumbnail-container-left {
+    position: absolute;
+    top: 181px;
+    left: 43px;
+    right: auto;
 
-    margin: auto;
+    width: 300px;
+    height: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-header {
+  #section-2-thumbnail-container-mid {
+    position: absolute;
+    top: 181px;
     left: 0;
     right: 0;
 
+    width: 300px;
+    height: auto;
     margin: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-body {
-    left: 0;
-    right: 0;
+  #section-2-thumbnail-container-right {
+    position: absolute;
+    top: 181px;
+    left: auto;
+    right: 43px;
 
-    margin: auto;
+    width: 300px;
+    height: auto;
+
+    text-align: center;
   }
 
-  #thumbnail-mid-button {
-    left: 0;
-    right: 0;
+  .section-2-thumbnail {
+    top: 0;
+    left: 0 !important;
+    right: 0!important;
 
-    margin: auto;
+    margin: auto !important;
+  }
+
+  .thumbnail-img {
+    top: 34px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-header {
+    top: 162.546px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-body {
+    top: 207.313px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
+  }
+
+  .thumbnail-button {
+    top: 303px;
+    left: 0 !important;
+    right: 0!important;
+
+    margin: auto !important;
   }
 
 
 /* ------------------ SECTION 3 QUERY ------------------ */
   #section-3-container {
     width: 100%;
+  }
+
+  #section-3-menu {
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
   #view-more-work-button {
@@ -1664,6 +1746,203 @@ ul {
     width: 100%;
   }
 
+  .section-7-header {
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  .section-7-header-accent {
+    top: 25.477px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;;
+  }
+
+  #section-7-about-us-container {
+    position: absolute;
+    top: 27.523px;
+    left: 28px;
+    right: auto;
+
+    width: 330px;
+    height: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  #about-us-body {
+    top: 49.212px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #about-us-social-container {
+    top: 306.477px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  .about-us-social-icon {
+    top: 310.477px;
+  }
+
+  #dribbble-link-about-us {
+    left: 128px;
+  }
+
+  #facebook-link-about-us {
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #twitter-link-about-us {
+    left: 182px;
+  }
+
+  #section-7-recent-posts-container {
+    position: absolute;
+    top: 27.523px;
+    left: 0;
+    right: 0;
+
+    width: 330px;
+    height: auto;
+    margin: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  .recent-posts-img {
+    left: 24px;
+  }
+
+  #recent-posts-img-1 {
+    top: 45.477px;
+  }
+
+  #recent-posts-img-2 {
+    top: 110.477px;
+  }
+
+  #recent-posts-img-3 {
+    top: 174.477px;
+  }
+
+  #recent-posts-img-4 {
+    top: 240.477px;
+  }
+
+  #recent-posts-img-5 {
+    top: 304.477px;
+  }
+
+  .recent-posts-subhead {
+    left: 81.938px;
+  }
+
+  #recent-posts-subhead-1 {
+    top: 48.34px;
+  }
+
+  #recent-posts-subhead-2 {
+    top: 113.34px;
+  }
+
+  #recent-posts-subhead-3 {
+    top: 177.34px;
+  }
+
+  #recent-posts-subhead-4 {
+    top: 243.34px;
+  }
+
+  #recent-posts-subhead-5 {
+    top: 307.43px;
+  }
+
+  .recent-posts-button {
+    left: 84px;
+  }
+
+  #recent-posts-button-1 {
+    top: 71.477px;
+  }
+
+  #recent-posts-button-2 {
+    top: 136.477px;
+  }
+
+  #recent-posts-button-3 {
+    top: 200.477px;
+  }
+
+  #recent-posts-button-4 {
+    top: 266.477px;
+  }
+
+  #recent-posts-button-5 {
+    top: 330.477px;
+  }
+
+  #section-7-contact-us-container {
+    position: absolute;
+    top: 27.523px;
+    left: auto;
+    right: 28px;
+
+    width: 330px;
+    height: auto;
+
+    text-align: center;
+
+    /* border: 1px solid white; */
+  }
+
+  #contact-info {
+    top: 41.478px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  .contact-us-user-info {
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #contact-us-user-name {
+    top: 150.477px;
+  }
+
+  #contact-us-user-email {
+    top: 184.477px;
+  }
+
+  #contact-us-user-message {
+    top: 218.477px;
+  }
+
+  #contact-us-user-submit {
+    top: 350.477px;
+  }
+
 
 /* ------------------ SECTION 8 QUERY ------------------ */
   #section-8-container {
@@ -1672,5 +1951,112 @@ ul {
 
   #section-8-container-accent {
     width: 100%;
+  }
+}
+
+
+
+
+
+/* -------------------------- MEDIA QUERY <= 1080 -------------------------- */
+@media screen and (max-width: 1080px) {
+/* ------------------ SECTION 1 QUERY ------------------ */
+  #navbar {
+    width: 100%;
+  }
+
+  #searchbar {
+    left: auto;
+    right: 26px;
+  }
+
+
+/* ------------------ SECTION 2 QUERY ------------------ */
+  #section-2-container {
+    width: 100%;
+    height: 1377px;
+  }
+
+  #section-2-thumbnail-container-left {
+    top: 181px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+  #section-2-thumbnail-container-mid {
+    top: 581px;
+  }
+
+  #section-2-thumbnail-container-right {
+    top: 981px;
+    left: 0 !important;
+    right: 0 !important;
+
+    margin: auto !important;
+  }
+
+
+/* ------------------ SECTION 3 QUERY ------------------ */
+  #section-3-container {
+    top: 2036px;
+
+    width: 100%;
+    height: 748px;
+  }
+
+
+/* ------------------ SECTION 4 QUERY ------------------ */
+  #section-4-container {
+    width: 100%;
+
+    background-color: lightYellow;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 5 QUERY ------------------ */
+  #section-5-container {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 6 QUERY ------------------ */
+  #section-6-container {
+    width: 100%;
+
+    display: none;
+  }
+
+  #section-6-container-accent {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 7 QUERY ------------------ */
+  #section-7-container {
+    width: 100%;
+
+    display: none;
+  }
+
+
+/* ------------------ SECTION 8 QUERY ------------------ */
+  #section-8-container {
+    width: 100%;
+
+    display: none;
+  }
+
+  #section-8-container-accent {
+    width: 100%;
+
+    display: none;
   }
 }

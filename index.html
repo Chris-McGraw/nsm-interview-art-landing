@@ -56,41 +56,47 @@
     <div id="section-2-header-accent" class="section-header-accent-main"></div>
     <p id="section-2-header-sub" class="section-header-sub-main">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
 
-    <div class="section-2-thumbnail" id="section-2-thumbnail-left"></div>
-    <img class="thumbnail-img"
-      id="thumbnail-left-camera"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540341622/nsm-art-landing/thumbnail-camera.png"
-      draggable="false">
-    <p class="thumbnail-header" id="thumbnail-left-header">Lorem Ipsum</p>
-    <p class="thumbnail-body" id="thumbnail-left-body">This is Photoshop's version of Lorem Ipsum.
-      Proin gravida nibh vel velit auctor aliquet.
-      Aenean sollicitudin, lorem quis bibendum auctor.
-    </p>
-    <button class="thumbnail-button" id="thumbnail-left-button">Learn more</button>
+    <div id="section-2-thumbnail-container-left">
+      <div class="section-2-thumbnail" id="section-2-thumbnail-left"></div>
+      <img class="thumbnail-img"
+        id="thumbnail-left-camera"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540341622/nsm-art-landing/thumbnail-camera.png"
+        draggable="false">
+      <p class="thumbnail-header" id="thumbnail-left-header">Lorem Ipsum</p>
+      <p class="thumbnail-body" id="thumbnail-left-body">This is Photoshop's version of Lorem Ipsum.
+        Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor.
+      </p>
+      <button class="thumbnail-button" id="thumbnail-left-button">Learn more</button>
+    </div>
 
-    <div class="section-2-thumbnail" id="section-2-thumbnail-mid"></div>
-    <img class="thumbnail-img"
-      id="thumbnail-left-meter"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540342301/nsm-art-landing/thumbnail-meter.png"
-      draggable="false">
-    <p class="thumbnail-header" id="thumbnail-mid-header">Lorem Ipsum</p>
-    <p class="thumbnail-body" id="thumbnail-mid-body">This is Photoshop's version of Lorem Ipsum.
-      Proin gravida nibh vel velit auctor aliquet.
-      Aenean sollicitudin, lorem quis bibendum auctor.
-    </p>
-    <button class="thumbnail-button" id="thumbnail-mid-button">Learn more</button>
+    <div id="section-2-thumbnail-container-mid">
+      <div class="section-2-thumbnail" id="section-2-thumbnail-mid"></div>
+      <img class="thumbnail-img"
+        id="thumbnail-left-meter"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540342301/nsm-art-landing/thumbnail-meter.png"
+        draggable="false">
+      <p class="thumbnail-header" id="thumbnail-mid-header">Lorem Ipsum</p>
+      <p class="thumbnail-body" id="thumbnail-mid-body">This is Photoshop's version of Lorem Ipsum.
+        Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor.
+      </p>
+      <button class="thumbnail-button" id="thumbnail-mid-button">Learn more</button>
+    </div>
 
-    <div class="section-2-thumbnail" id="section-2-thumbnail-right"></div>
-    <img class="thumbnail-img"
-      id="thumbnail-left-toolbox"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540342301/nsm-art-landing/thumbnail-toolbox.png"
-      draggable="false">
-    <p class="thumbnail-header" id="thumbnail-right-header">Lorem Ipsum</p>
-    <p class="thumbnail-body" id="thumbnail-right-body">This is Photoshop's version of Lorem Ipsum.
-      Proin gravida nibh vel velit auctor aliquet.
-      Aenean sollicitudin, lorem quis bibendum auctor.
-    </p>
-    <button class="thumbnail-button" id="thumbnail-right-button">Learn more</button>
+    <div id="section-2-thumbnail-container-right">
+      <div class="section-2-thumbnail" id="section-2-thumbnail-right"></div>
+      <img class="thumbnail-img"
+        id="thumbnail-left-toolbox"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540342301/nsm-art-landing/thumbnail-toolbox.png"
+        draggable="false">
+      <p class="thumbnail-header" id="thumbnail-right-header">Lorem Ipsum</p>
+      <p class="thumbnail-body" id="thumbnail-right-body">This is Photoshop's version of Lorem Ipsum.
+        Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor.
+      </p>
+      <button class="thumbnail-button" id="thumbnail-right-button">Learn more</button>
+    </div>
   </div>
 
 
@@ -100,12 +106,15 @@
     <div id="section-3-header-accent" class="section-header-accent-main"></div>
     <p id="section-3-header-sub" class="section-header-sub-main">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
 
-    <div id="section-3-menu"></div>
-    <div id="work-menu-highlight-left"></div>
-    <div id="work-menu-line-right"></div>
-    <p id="work-menu-photography" class="work-menu-item">Photography</p>
-    <p id="work-menu-design" class="work-menu-item">Design</p>
-    <p id="work-menu-print" class="work-menu-item">Print</p>
+    <div id="section-3-menu">
+      <div id="work-menu-photography-button"></div>
+      <p id="work-menu-photography" class="work-menu-item">Photography</p>
+      <div id="work-menu-design-button"></div>
+      <p id="work-menu-design" class="work-menu-item">Design</p>
+      <div id="work-menu-print-button"></div>
+      <p id="work-menu-print" class="work-menu-item">Print</p>
+    </div>
+
 
     <img id="work-ex-1" class="work-ex-row-top"
       src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540414478/nsm-art-landing/work-ex-1_algllk.png"
@@ -305,81 +314,90 @@
 
 <!-- ========================= SECTION 7 CONTAINER ========================= -->
   <div id="section-7-container">
-    <p id="about-us-header" class="section-7-header">about us</p>
-    <div id="about-us-header-accent" class="section-7-header-accent"></div>
-    <p id="about-us-body">This is Photoshop's version of Lorem Ipsum.
-      Proin gravida nibh vel velit auctor aliquet.
-      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-      Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-      Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque.
-      Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-      Duis sed odio sit amet nibh vulputate cursus.
-    </p>
-    <div id="about-us-social-container"></div>
-    <a href="https://dribbble.com/" target="_blank">
-      <img id="dribbble-link-about-us" class="about-us-social-icon"
-        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540427939/nsm-art-landing/social-icon-dribbble.png"
+
+    <div id="section-7-about-us-container">
+      <p id="about-us-header" class="section-7-header">about us</p>
+      <div id="about-us-header-accent" class="section-7-header-accent"></div>
+      <p id="about-us-body">This is Photoshop's version of Lorem Ipsum.
+        Proin gravida nibh vel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+        Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque.
+        Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+        Duis sed odio sit amet nibh vulputate cursus.
+      </p>
+      <div id="about-us-social-container"></div>
+      <a href="https://dribbble.com/" target="_blank">
+        <img id="dribbble-link-about-us" class="about-us-social-icon"
+          src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540427939/nsm-art-landing/social-icon-dribbble.png"
+          draggable="false">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img id="facebook-link-about-us" class="about-us-social-icon"
+          src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540483036/nsm-art-landing/social-icon-facebook_c9clhp.png"
+          draggable="false">
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+        <img id="twitter-link-about-us" class="about-us-social-icon"
+          src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540427939/nsm-art-landing/social-icon-twitter.png"
+          draggable="false">
+      </a>
+    </div>
+
+
+    <div id="section-7-recent-posts-container">
+      <p id="recent-posts-header" class="section-7-header">recent posts</p>
+      <div id="recent-posts-header-accent" class="section-7-header-accent"></div>
+
+      <img id="recent-posts-img-1" class="recent-posts-img"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540488528/nsm-art-landing/recent-posts-1.png"
         draggable="false">
-    </a>
-    <a href="https://www.facebook.com/" target="_blank">
-      <img id="facebook-link-about-us" class="about-us-social-icon"
-        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540483036/nsm-art-landing/social-icon-facebook_c9clhp.png"
+      <p id="recent-posts-subhead-1" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
+      <button id="recent-posts-button-1" class="recent-posts-button">magazine</button>
+
+      <img id="recent-posts-img-2" class="recent-posts-img"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489853/nsm-art-landing/recent-posts-2.png"
         draggable="false">
-    </a>
-    <a href="https://twitter.com/" target="_blank">
-      <img id="twitter-link-about-us" class="about-us-social-icon"
-        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540427939/nsm-art-landing/social-icon-twitter.png"
+      <p id="recent-posts-subhead-2" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
+      <button id="recent-posts-button-2" class="recent-posts-button">ui design</button>
+
+      <img id="recent-posts-img-3" class="recent-posts-img"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489852/nsm-art-landing/recent-posts-3.png"
         draggable="false">
-    </a>
+      <p id="recent-posts-subhead-3" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
+      <button id="recent-posts-button-3" class="recent-posts-button">photography</button>
 
-    <p id="recent-posts-header" class="section-7-header">recent posts</p>
-    <div id="recent-posts-header-accent" class="section-7-header-accent"></div>
+      <img id="recent-posts-img-4" class="recent-posts-img"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489853/nsm-art-landing/recent-posts-4.png"
+        draggable="false">
+      <p id="recent-posts-subhead-4" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
+      <button id="recent-posts-button-4" class="recent-posts-button">book</button>
 
-    <img id="recent-posts-img-1" class="recent-posts-img"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540488528/nsm-art-landing/recent-posts-1.png"
-      draggable="false">
-    <p id="recent-posts-subhead-1" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
-    <button id="recent-posts-button-1" class="recent-posts-button">magazine</button>
+      <img id="recent-posts-img-5" class="recent-posts-img"
+        src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489852/nsm-art-landing/recent-posts-5.png"
+        draggable="false">
+      <p id="recent-posts-subhead-5" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
+      <button id="recent-posts-button-5" class="recent-posts-button">ui design</button>
+    </div>
 
-    <img id="recent-posts-img-2" class="recent-posts-img"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489853/nsm-art-landing/recent-posts-2.png"
-      draggable="false">
-    <p id="recent-posts-subhead-2" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
-    <button id="recent-posts-button-2" class="recent-posts-button">ui design</button>
 
-    <img id="recent-posts-img-3" class="recent-posts-img"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489852/nsm-art-landing/recent-posts-3.png"
-      draggable="false">
-    <p id="recent-posts-subhead-3" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
-    <button id="recent-posts-button-3" class="recent-posts-button">photography</button>
+    <div id="section-7-contact-us-container">
+      <p id="contact-us-header" class="section-7-header">contact us</p>
+      <div id="contact-us-header-accent" class="section-7-header-accent"></div>
+      <p id="contact-info">10044 West 23th Street, Suite 721</br>
+        New York NY 10010</br>
+        <a href="mailto:username@email.com.com"><span id="contact-email">Email: Username@email.com</span></a></br>
+        Phone: +1 (0) 123 4567 890</br>
+        Fax: +1 (0) 321 4567 890
+      </p>
 
-    <img id="recent-posts-img-4" class="recent-posts-img"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489853/nsm-art-landing/recent-posts-4.png"
-      draggable="false">
-    <p id="recent-posts-subhead-4" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
-    <button id="recent-posts-button-4" class="recent-posts-button">book</button>
-
-    <img id="recent-posts-img-5" class="recent-posts-img"
-      src="https://res.cloudinary.com/dtwyohvli/image/upload/v1540489852/nsm-art-landing/recent-posts-5.png"
-      draggable="false">
-    <p id="recent-posts-subhead-5" class="recent-posts-subhead">Lorem Ipsum Dolor Sit Amet.</p>
-    <button id="recent-posts-button-5" class="recent-posts-button">ui design</button>
-
-    <p id="contact-us-header" class="section-7-header">contact us</p>
-    <div id="contact-us-header-accent" class="section-7-header-accent"></div>
-    <p id="contact-info">10044 West 23th Street, Suite 721</br>
-      New York NY 10010</br>
-      <a href="mailto:username@email.com.com"><span id="contact-email">Email: Username@email.com</span></a></br>
-      Phone: +1 (0) 123 4567 890</br>
-      Fax: +1 (0) 321 4567 890
-    </p>
-
-    <form id="contact-us-user-form">
-      <input id="contact-us-user-name" class="contact-us-user-info" type="text" placeholder="Your Name..">
-      <input id="contact-us-user-email" class="contact-us-user-info" type="email" placeholder="Your Email..">
-      <textarea id="contact-us-user-message" class="contact-us-user-info" placeholder="Your Message.."></textarea>
-      <input id="contact-us-user-submit" class="contact-us-user-info" type="submit" value="Send">
-    </form>
+      <form id="contact-us-user-form">
+        <input id="contact-us-user-name" class="contact-us-user-info" type="text" placeholder="Your Name..">
+        <input id="contact-us-user-email" class="contact-us-user-info" type="email" placeholder="Your Email..">
+        <textarea id="contact-us-user-message" class="contact-us-user-info" placeholder="Your Message.."></textarea>
+        <input id="contact-us-user-submit" class="contact-us-user-info" type="submit" value="Send">
+      </form>
+    </div>
 
   </div>
 
