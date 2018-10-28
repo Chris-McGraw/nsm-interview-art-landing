@@ -2117,6 +2117,29 @@ ul {
 /* ------------------ SECTION 4 QUERY ------------------ */
   #section-4-container {
     top: 3364px;
+
+    height: 392px;
+  }
+
+  #testimonial-arrow-left {
+    top: 220px;
+    left: 40px;
+  }
+
+  #testimonial-body {
+    top: 183.01px;
+
+    width: 240px;
+    margin: auto;
+  }
+
+  #testimonial-arrow-right {
+    top: 220px;
+    right: 40px;
+  }
+
+  #testimonial-client-container {
+    top: 293px;
   }
 
 
