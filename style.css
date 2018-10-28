@@ -2155,25 +2155,93 @@ ul {
     top: 3756px;
 
     width: 100%;
-    height: 497px;
+    height: 637px;
   }
 
   #client-list-lg {
     display: none;
   }
 
+  #client-list-sm-left {
+    display: block;
+    position: absolute;
+    z-index: 132;
+    top: 170px;
+    left: 0;
+    right: 190px;
+
+    width: 180px;
+    height: auto;
+    margin: auto;
+  }
+
+  .client-logo-sm-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #client-google-sm {
+    top: 0;
+  }
+
+  #client-microsoft-sm {
+    top: 100px;
+  }
+
+  #client-qualcomm-sm {
+    top: 200px;
+  }
+
+  #client-apple-sm {
+    top: 265px;
+  }
+
+  #client-list-sm-right {
+    display: block;
+    position: absolute;
+    z-index: 132;
+    top: 170px;
+    left: 190px;
+    right: 0;
+
+    width: 180px;
+    height: auto;
+    margin: auto;
+  }
+
+  #client-yahoo-sm {
+    top: 0;
+  }
+
+  #client-intel-sm {
+    top: 80px;
+  }
+
+  #client-cisco-sm {
+    top: 180px;
+  }
+
+  #client-asus-sm {
+    top: 290px;
+  }
+
+  #see-all-clients-button {
+    top: 545px;
+  }
+
 
 /* ------------------ SECTION 6 QUERY ------------------ */
   #section-6-container {
-    width: 100%;
+    top: 4393px;
 
-    display: none;
+    width: 100%;
   }
 
   #section-6-container-accent {
     width: 100%;
-
-    display: none;
   }
 
 
