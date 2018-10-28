@@ -634,8 +634,6 @@ ul {
   width: 920px;
   height: auto;
   margin: auto;
-
-  /* border: 1px solid white; */
 }
 
 .work-ex-row-top {
@@ -800,18 +798,30 @@ ul {
   cursor: pointer;
 }
 
+#testimonial-client-container {
+  position: absolute;
+  z-index: 118;
+  top: 243px;
+  left: 0;
+  right: 0;
+
+  width: 184px;
+  height: auto;
+  margin: auto;
+}
+
 #testimonial-client-photo {
   position: absolute;
   z-index: 120;
-  top: 243px;
-  left: 489px;
+  top: 0;
+  left: 0;
 }
 
 #testimonial-client-name {
   position: absolute;
   z-index: 118;
-  top: 248.01px;
-  left: 543.938px;
+  top: 5px;
+  left: 55px;
 
   text-align: center;
   line-height: 1.2;
@@ -823,8 +833,9 @@ ul {
 #testimonial-client-title {
   position: absolute;
   z-index: 119;
-  top: 268.135px;
-  left: 542.938px;
+  top: 25px;
+  left: auto;
+  right: 0;
 
   text-align: center;
   line-height: 1.2;
