@@ -1584,27 +1584,39 @@ ul {
   background-color: rgb(16, 16, 16);
 }
 
+#as-seen-on-container {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+
+  width: 990px;
+  height: auto;
+  margin: auto;
+}
+
 .as-seen-on-img {
   position: absolute;
   z-index: 320;
-  top: 70px;
+  top: 0;
 
 }
 
 #as-seen-on-cnn {
-  left: 90px;
+  left: 0;
 }
 
 #as-seen-on-tech-crunch {
-  left: 290px;
+  left: 200px;
 }
 
 #as-seen-on-bbc {
-  left: 490px;
+  left: 400px;
 }
 
 #as-seen-on-ny-times {
-  left: 740px;
+  left: auto;
+  right: 0;
 }
 
 #section-8-container-accent {
