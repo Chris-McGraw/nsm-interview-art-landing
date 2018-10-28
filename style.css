@@ -624,10 +624,24 @@ ul {
   color: rgb(43, 155, 43);
 }
 
-.work-ex-row-top {
+#work-ex-container {
   position: absolute;
   z-index: 69;
   top: 260px;
+  left: 0;
+  right: 0;
+
+  width: 920px;
+  height: auto;
+  margin: auto;
+
+  /* border: 1px solid white; */
+}
+
+.work-ex-row-top {
+  position: absolute;
+  z-index: 69;
+  top: 0;
 
   width: 160px;
   height: 160px;
@@ -636,29 +650,30 @@ ul {
 }
 
 #work-ex-1 {
-  left: 125px;
+  left: 0;
 }
 
 #work-ex-2 {
-  left: 316px;
+  left: 191px;
 }
 
 #work-ex-3 {
-  left: 505px;
+  left: 380px;
 }
 
 #work-ex-4 {
-  left: 695px;
+  left: 570px;
 }
 
 #work-ex-5 {
-  left: 885px;
+  left: auto;
+  right: 0;
 }
 
 .work-ex-row-bottom {
   position: absolute;
   z-index: 69;
-  top: 449px;
+  top: 189px;
 
   width: 160px;
   height: 160px;
@@ -667,23 +682,24 @@ ul {
 }
 
 #work-ex-6 {
-  left: 125px;
+  left: 0;
 }
 
 #work-ex-7 {
-  left: 316px;
+  left: 191px;
 }
 
 #work-ex-8 {
-  left: 505px;
+  left: 380px;
 }
 
 #work-ex-9 {
-  left: 695px;
+  left: 570px;
 }
 
 #work-ex-10 {
-  left: 885px;
+  left: auto;
+  right: 0;
 }
 
 #view-more-work-button {
@@ -1958,8 +1974,8 @@ ul {
 
 
 
-/* -------------------------- MEDIA QUERY <= 1080 -------------------------- */
-@media screen and (max-width: 1080px) {
+/* -------------------------- MEDIA QUERY <= 1045 -------------------------- */
+@media screen and (max-width: 1045px) {
 /* ------------------ SECTION 1 QUERY ------------------ */
   #navbar {
     width: 100%;
