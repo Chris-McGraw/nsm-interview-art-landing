@@ -624,10 +624,22 @@ ul {
   color: rgb(43, 155, 43);
 }
 
-.work-ex-row-top {
+#work-ex-container {
   position: absolute;
   z-index: 69;
   top: 260px;
+  left: 0;
+  right: 0;
+
+  width: 920px;
+  height: auto;
+  margin: auto;
+}
+
+.work-ex-row-top {
+  position: absolute;
+  z-index: 69;
+  top: 0;
 
   width: 160px;
   height: 160px;
@@ -636,29 +648,30 @@ ul {
 }
 
 #work-ex-1 {
-  left: 125px;
+  left: 0;
 }
 
 #work-ex-2 {
-  left: 316px;
+  left: 191px;
 }
 
 #work-ex-3 {
-  left: 505px;
+  left: 380px;
 }
 
 #work-ex-4 {
-  left: 695px;
+  left: 570px;
 }
 
 #work-ex-5 {
-  left: 885px;
+  left: auto;
+  right: 0;
 }
 
 .work-ex-row-bottom {
   position: absolute;
   z-index: 69;
-  top: 449px;
+  top: 189px;
 
   width: 160px;
   height: 160px;
@@ -667,23 +680,24 @@ ul {
 }
 
 #work-ex-6 {
-  left: 125px;
+  left: 0;
 }
 
 #work-ex-7 {
-  left: 316px;
+  left: 191px;
 }
 
 #work-ex-8 {
-  left: 505px;
+  left: 380px;
 }
 
 #work-ex-9 {
-  left: 695px;
+  left: 570px;
 }
 
 #work-ex-10 {
-  left: 885px;
+  left: auto;
+  right: 0;
 }
 
 #view-more-work-button {
@@ -784,18 +798,30 @@ ul {
   cursor: pointer;
 }
 
+#testimonial-client-container {
+  position: absolute;
+  z-index: 118;
+  top: 243px;
+  left: 0;
+  right: 0;
+
+  width: 184px;
+  height: auto;
+  margin: auto;
+}
+
 #testimonial-client-photo {
   position: absolute;
   z-index: 120;
-  top: 243px;
-  left: 489px;
+  top: 0;
+  left: 0;
 }
 
 #testimonial-client-name {
   position: absolute;
   z-index: 118;
-  top: 248.01px;
-  left: 543.938px;
+  top: 5px;
+  left: 55px;
 
   text-align: center;
   line-height: 1.2;
@@ -807,8 +833,9 @@ ul {
 #testimonial-client-title {
   position: absolute;
   z-index: 119;
-  top: 268.135px;
-  left: 542.938px;
+  top: 25px;
+  left: auto;
+  right: 0;
 
   text-align: center;
   line-height: 1.2;
@@ -924,39 +951,52 @@ ul {
   color: rgb(43, 155, 43);
 }
 
+#team-pic-container {
+  position: absolute;
+  z-index: 155;
+  top: 153px;
+  left: 0;
+  right: 0;
+
+  width: 822px;
+  height: auto;
+  margin: auto;
+}
+
 .team-picture {
   position: absolute;
   z-index: 158;
-  top: 153px;
+  top: 0;
 
   width: 124px;
   height: 124px;
 }
 
 #team-pic-krisna {
-  left: 174px;
+  left: 0;
 }
 
 #team-pic-gabriel {
-  left: 349px;
+  left: 175px;
 }
 
 #team-pic-adik {
-  left: 524px;
+  left: 350px;
 }
 
 #team-pic-zan {
-  left: 697px;
+  left: 523px;
 }
 
 #team-pic-faizal {
-  left: 872px;
+  left: auto;
+  right: 0;
 }
 
 .team-accent {
   position: absolute;
   z-index: 157;
-  top: 287px;
+  top: 134px;
 
   width: 2px;
   height: 77px;
@@ -965,29 +1005,29 @@ ul {
 }
 
 #team-accent-krisna {
-  left: 233px;
+  left: 59px;
 }
 
 #team-accent-gabriel {
-  left: 411px;
+  left: 237px;
 }
 
 #team-accent-adik {
-  left: 584px;
+  left: 410px;
 }
 
 #team-accent-zan {
-  left: 759px;
+  left: 585px;
 }
 
 #team-accent-faizal {
-  left: 932px;
+  left: 758px;
 }
 
 .team-name {
   position: absolute;
   z-index: 160;
-  top: 372.01px;
+  top: 219.01px;
 
   text-align: center;
   line-height: 1.2;
@@ -997,29 +1037,29 @@ ul {
 }
 
 #team-name-krisna {
-  left: 186.938px;
+  left: 12.938px;
 }
 
 #team-name-gabriel {
-  left: 359.938px;
+  left: 185.938px;
 }
 
 #team-name-adik {
-  left: 544.937px;
+  left: 370.937px;
 }
 
 #team-name-zan {
-  left: 737.905px;
+  left: 563.905px;
 }
 
 #team-name-faizal {
-  left: 889.938px;
+  left: 715.938px;
 }
 
 .team-social-container {
   position: absolute;
   z-index: 162;
-  top: 401px;
+  top: 248px;
 
   width: 84px;
   height: 28px;
@@ -1029,29 +1069,29 @@ ul {
 }
 
 #social-container-krisna {
-  left: 190px;
+  left: 16px;
 }
 
 #social-container-gabriel {
-  left: 370px;
+  left: 196px;
 }
 
 #social-container-adik {
-  left: 539px;
+  left: 365px;
 }
 
 #social-container-zan {
-  left: 722px;
+  left: 548px;
 }
 
 #social-container-faizal {
-  left: 887px;
+  left: 713px;
 }
 
 .team-social-icon {
   position: absolute;
   z-index: 163;
-  top: 405px;
+  top: 252px;
 
   width: 20px;
   height: 20px;
@@ -1068,63 +1108,63 @@ ul {
 }
 
 #dribbble-link-krisna {
-  left: 195px;
+  left: 21px;
 }
 
 #behance-link-krisna {
-  left: 222px;
+  left: 48px;
 }
 
 #twitter-link-krisna {
-  left: 249px;
+  left: 75px;
 }
 
 #dribbble-link-gabriel {
-  left: 375px;
+  left: 201px;
 }
 
 #behance-link-gabriel {
-  left: 402px;
+  left: 228px;
 }
 
 #twitter-link-gabriel {
-  left: 429px;
+  left: 255px;
 }
 
 #dribbble-link-adik {
-  left: 544px;
+  left: 370px;
 }
 
 #behance-link-adik {
-  left: 571px;
+  left: 397px;
 }
 
 #twitter-link-adik {
-  left: 598px;
+  left: 424px;
 }
 
 #dribbble-link-zan {
-  left: 727px;
+  left: 553px;
 }
 
 #behance-link-zan {
-  left: 754px;
+  left: 580px;
 }
 
 #twitter-link-zan {
-  left: 781px;
+  left: 607px;
 }
 
 #dribbble-link-faizal {
-  left: 892px;
+  left: 718px;
 }
 
 #behance-link-faizal {
-  left: 919px;
+  left: 745px;
 }
 
 #twitter-link-faizal {
-  left: 946px;
+  left: 772px;
 }
 
 #section-6-container-accent {
@@ -1544,27 +1584,39 @@ ul {
   background-color: rgb(16, 16, 16);
 }
 
+#as-seen-on-container {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+
+  width: 990px;
+  height: auto;
+  margin: auto;
+}
+
 .as-seen-on-img {
   position: absolute;
   z-index: 320;
-  top: 70px;
+  top: 0;
 
 }
 
 #as-seen-on-cnn {
-  left: 90px;
+  left: 0;
 }
 
 #as-seen-on-tech-crunch {
-  left: 290px;
+  left: 200px;
 }
 
 #as-seen-on-bbc {
-  left: 490px;
+  left: 400px;
 }
 
 #as-seen-on-ny-times {
-  left: 740px;
+  left: auto;
+  right: 0;
 }
 
 #section-8-container-accent {
@@ -1601,8 +1653,6 @@ ul {
 /* ------------------ SECTION 2 QUERY ------------------ */
   #section-2-container {
     width: 100%;
-
-    background-color: darkGray;
   }
 
   #section-2-thumbnail-container-left {
@@ -1706,8 +1756,6 @@ ul {
 /* ------------------ SECTION 4 QUERY ------------------ */
   #section-4-container {
     width: 100%;
-
-    background-color: darkGray;
   }
 
 
@@ -1772,8 +1820,6 @@ ul {
     height: auto;
 
     text-align: center;
-
-    /* border: 1px solid white; */
   }
 
   #about-us-body {
@@ -1822,8 +1868,6 @@ ul {
     margin: auto;
 
     text-align: center;
-
-    /* border: 1px solid white; */
   }
 
   .recent-posts-img {
@@ -1958,8 +2002,8 @@ ul {
 
 
 
-/* -------------------------- MEDIA QUERY <= 1080 -------------------------- */
-@media screen and (max-width: 1080px) {
+/* -------------------------- MEDIA QUERY <= 1045 -------------------------- */
+@media screen and (max-width: 1045px) {
 /* ------------------ SECTION 1 QUERY ------------------ */
   #navbar {
     width: 100%;
