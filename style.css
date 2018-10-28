@@ -2238,10 +2238,186 @@ ul {
     top: 4393px;
 
     width: 100%;
+    height: 1256px;
+  }
+
+  #team-pic-container {
+    position: absolute;
+    z-index: 162;
+    left: 0;
+    right: 0;
+
+    width: 310px;
+    height: auto;
+    margin: auto;
+  }
+
+  #team-pic-krisna {
+    left: 0;
+  }
+
+  #team-pic-gabriel {
+    left: auto;
+    right: 0;
+  }
+
+  #team-pic-adik {
+    top: 330px;
+    left: 0;
+  }
+
+  #team-pic-zan {
+    top: 330px;
+    left: auto;
+    right: 0;
+  }
+
+  #team-pic-faizal {
+    top: 660px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #team-accent-gabriel {
+    left: 248px;
+  }
+
+  #team-accent-adik {
+    top: 465px;
+    left: 59px;
+  }
+
+  #team-accent-zan {
+    top: 465px;
+    left: 248px;
+  }
+
+  #team-accent-faizal {
+    top: 795px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #team-name-gabriel {
+    left: 197.438px;
+  }
+
+  #team-name-adik {
+    top: 550px;
+    left: 19.938px;
+  }
+
+  #team-name-zan {
+    top: 550px;
+    left: 226.438px;
+  }
+
+  #team-name-faizal {
+    top: 880.99px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #social-container-gabriel {
+    left: 207px;
+  }
+
+  #social-container-adik {
+    top: 580px;
+    left: 16px;
+  }
+
+  #social-container-zan {
+    top: 580px;
+    left: 207px;
+  }
+
+  #social-container-faizal {
+    top: 912px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #dribbble-link-gabriel {
+    left: 212px;
+  }
+
+  #behance-link-gabriel {
+    left: 239px;
+  }
+
+  #twitter-link-gabriel {
+    left: 266px;
+  }
+
+  #dribbble-link-adik {
+    top: 584px;
+    left: 21px;
+  }
+
+  #behance-link-adik {
+    top: 584px;
+    left: 48px;
+  }
+
+  #twitter-link-adik {
+    top: 584px;
+    left: 75px;
+  }
+
+  #dribbble-link-zan {
+    top: 584px;
+    left: 212px;
+  }
+
+  #behance-link-zan {
+    top: 584px;
+    left: 239px;
+  }
+
+  #twitter-link-zan {
+    top: 584px;
+    left: 266px;
+  }
+
+  #dribbble-link-faizal {
+    top: 916px;
+    left: 0;
+    right: 54px;
+
+    margin: auto;
+    }
+
+  #behance-link-faizal {
+    top: 916px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #twitter-link-faizal {
+    top: 916px;
+    left: 54px;
+    right: 0;
+
+    margin: auto;
   }
 
   #section-6-container-accent {
     width: 100%;
+  }
+
+  #team-work-with-us-button {
+    top: 1190px;
   }
 
 
