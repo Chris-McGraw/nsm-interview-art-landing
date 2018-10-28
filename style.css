@@ -96,9 +96,11 @@ a {
 #section-1-background {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
 
   margin: auto;
+
+  transform: translateX(-50%);
+  overflow-x: hidden;
 }
 
 #navbar {
