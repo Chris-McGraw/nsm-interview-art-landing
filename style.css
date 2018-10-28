@@ -1959,8 +1959,6 @@ ul {
     height: auto;
 
     text-align: center;
-
-    /* border: 1px solid white; */
   }
 
   #contact-info {
@@ -2423,22 +2421,77 @@ ul {
 
 /* ------------------ SECTION 7 QUERY ------------------ */
   #section-7-container {
+    top: 5647px;
     width: 100%;
+    height: 1362px;
+  }
 
-    display: none;
+  #section-7-about-us-container {
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #section-7-recent-posts-container {
+    top: 447.523px;
+  }
+
+  #section-7-contact-us-container {
+    top: 897.523px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
 
 /* ------------------ SECTION 8 QUERY ------------------ */
   #section-8-container {
+    top: 7009px;
     width: 100%;
+    height: 448px;
+  }
 
-    display: none;
+  #as-seen-on-container {
+    width: 100%;
+  }
+
+  #as-seen-on-cnn {
+    top: 10px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #as-seen-on-tech-crunch {
+    top: 110px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #as-seen-on-bbc {
+    top: 210px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+
+  #as-seen-on-ny-times {
+    top: 310px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
   #section-8-container-accent {
+    top: 7457px;
     width: 100%;
-
-    display: none;
   }
+
 }
