@@ -1653,8 +1653,6 @@ ul {
 /* ------------------ SECTION 2 QUERY ------------------ */
   #section-2-container {
     width: 100%;
-
-    background-color: darkGray;
   }
 
   #section-2-thumbnail-container-left {
@@ -1758,8 +1756,6 @@ ul {
 /* ------------------ SECTION 4 QUERY ------------------ */
   #section-4-container {
     width: 100%;
-
-    background-color: darkGray;
   }
 
 
@@ -1824,8 +1820,6 @@ ul {
     height: auto;
 
     text-align: center;
-
-    /* border: 1px solid white; */
   }
 
   #about-us-body {
@@ -1874,8 +1868,6 @@ ul {
     margin: auto;
 
     text-align: center;
-
-    /* border: 1px solid white; */
   }
 
   .recent-posts-img {
