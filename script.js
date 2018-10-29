@@ -42,6 +42,7 @@ $(document).ready(function() {
   var workTypeButtonActive = "photography";
 
   var testimonialClient = "clientOne";
+  var suspendCrossFade = false;
 
 
 /* ------------------------- FUNCTION DECLARATIONS ------------------------- */
@@ -83,6 +84,8 @@ $(document).ready(function() {
 
 
   function swapTestimonials() {
+    suspendCrossFade = true;
+
     if(testimonialClient === "clientOne") {
       $testimonialBody.addClass("testimonial-fade-out");
       $testimonialClientName.addClass("testimonial-fade-out");
@@ -97,7 +100,6 @@ $(document).ready(function() {
 
       testimonialClient = "clientTwo";
     }
-
     else if(testimonialClient === "clientTwo") {
       $testimonialBodyGhost.addClass("testimonial-fade-out");
       $testimonialClientNameGhost.addClass("testimonial-fade-out");
@@ -112,6 +114,10 @@ $(document).ready(function() {
 
       testimonialClient = "clientOne";
     }
+
+    setTimeout(function() {
+      suspendCrossFade = false;
+    }, 600);
   }
 
 
@@ -292,7 +298,9 @@ $(document).ready(function() {
   });
 
   $testimonialArrowLeft.on("click", function() {
-    swapTestimonials();
+    if(suspendCrossFade === false) {
+      swapTestimonials();
+    }
   });
 
 
@@ -312,7 +320,9 @@ $(document).ready(function() {
   });
 
   $testimonialArrowRight.on("click", function() {
-    swapTestimonials();
+    if(suspendCrossFade === false) {
+      swapTestimonials();
+    }
   });
 
 
