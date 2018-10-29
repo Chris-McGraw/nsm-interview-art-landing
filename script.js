@@ -31,6 +31,8 @@ $(document).ready(function() {
   var $testimonialBodyGhost = $("#testimonial-body-ghost");
   var $testimonialClientName = $("#testimonial-client-name");
   var $testimonialClientNameGhost = $("#testimonial-client-name-ghost");
+  var $testimonialClientTitle = $("#testimonial-client-title");
+  var $testimonialClientTitleGhost = $("#testimonial-client-title-ghost");
 
   var $seeAllClientsButton = $("#see-all-clients-button");
 
@@ -84,11 +86,14 @@ $(document).ready(function() {
     if(testimonialClient === "clientOne") {
       $testimonialBody.addClass("testimonial-fade-out");
       $testimonialClientName.addClass("testimonial-fade-out");
+      $testimonialClientTitle.addClass("testimonial-fade-out");
 
       $testimonialBodyGhost.removeClass("testimonial-fade-out")
       $testimonialBodyGhost.addClass("testimonial-fade-in");
       $testimonialClientNameGhost.removeClass("testimonial-fade-out")
       $testimonialClientNameGhost.addClass("testimonial-fade-in");
+      $testimonialClientTitleGhost.removeClass("testimonial-fade-out")
+      $testimonialClientTitleGhost.addClass("testimonial-fade-in");
 
       testimonialClient = "clientTwo";
     }
@@ -96,11 +101,14 @@ $(document).ready(function() {
     else if(testimonialClient === "clientTwo") {
       $testimonialBodyGhost.addClass("testimonial-fade-out");
       $testimonialClientNameGhost.addClass("testimonial-fade-out");
+      $testimonialClientTitleGhost.addClass("testimonial-fade-out");
 
       $testimonialBody.removeClass("testimonial-fade-out");
       $testimonialBody.addClass("testimonial-fade-in");
       $testimonialClientName.removeClass("testimonial-fade-out");
       $testimonialClientName.addClass("testimonial-fade-in");
+      $testimonialClientTitle.removeClass("testimonial-fade-out");
+      $testimonialClientTitle.addClass("testimonial-fade-in");
 
       testimonialClient = "clientOne";
     }
