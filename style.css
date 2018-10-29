@@ -209,6 +209,8 @@ ul {
   left: 0;
   right: 0;
 
+  margin: auto;
+
   text-align: center;
   line-height: 1.2;
   font-family: "Nautilus Pompilius";
@@ -2017,13 +2019,88 @@ ul {
 /* -------------------------- MEDIA QUERY <= 1045 -------------------------- */
 @media screen and (max-width: 1045px) {
 /* ------------------ SECTION 1 QUERY ------------------ */
+  #home-shortcut {
+    position: absolute;
+    top: 0;
+  }
+
+  #what-we-do-shortcut {
+    position: absolute;
+    top: 680px;
+  }
+
+  #testimonial-shortcut {
+    position: absolute;
+    top: 3385px;
+  }
+
+  #contact-us-shortcut {
+    position: absolute;
+    top: 6510px;
+  }
+
+  #work-with-us-shortcut {
+    position: absolute;
+    top: 4414px;
+  }
+
   #navbar {
     width: 100%;
+    height: 128px;
+  }
+
+  #navigation-menu {
+    left: 0;
+    right: 0;
+
+    width: 355px;
+    margin: auto;
+  }
+
+  #menu-home {
+    left: 5px;
+  }
+
+  #menu-what-we-do {
+    left: 65px;
+  }
+
+  #menu-testimonial {
+    left: 170px;
+  }
+
+  #menu-contact {
+    left: auto;
+    right: 5px;
+  }
+
+  #selection-home {
+    left: 5px;
+  }
+
+  #selection-what-we-do {
+    left: 65px;
+  }
+
+  #selection-testimonial {
+    left: 170px;
+  }
+
+  #selection-contact {
+    left: auto;
+    right: 5px
+  }
+
+  #switch-logo {
+    top: 36px;
   }
 
   #searchbar {
-    left: auto;
-    right: 26px;
+    top: 68px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 
 
@@ -2500,5 +2577,15 @@ ul {
     top: 7457px;
     width: 100%;
   }
+}
 
+
+
+
+
+/* -------------------------- MEDIA QUERY <= 706 -------------------------- */
+@media screen and (max-width: 706px) {
+  #section-1-button-header {
+    top: 439px;
+  }
 }
