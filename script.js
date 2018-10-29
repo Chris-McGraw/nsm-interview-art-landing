@@ -10,6 +10,8 @@ $(document).ready(function() {
   var $selectionTestimonial = $("#selection-testimonial");
   var $menuContact = $("#menu-contact");
   var $selectionContact = $("#selection-contact");
+  var $sectionOneButtonHeader = $("#section-1-button-header");
+  var $sectionOneButtonScroll = $("#section-1-button-scroll");
 
   var $workMenuPhotographyButton = $("#work-menu-photography-button");
   var $workMenuPhotography = $("#work-menu-photography");
@@ -101,6 +103,38 @@ $(document).ready(function() {
     $selectionHome.addClass("hidden");
     $selectionWhatWeDo.addClass("hidden");
     $selectionTestimonial.addClass("hidden");
+  });
+
+
+  $sectionOneButtonHeader.mouseenter(function() {
+    $(this).addClass("section-1-button-header-hover");
+  });
+  $sectionOneButtonHeader.mouseleave(function() {
+    $(this).removeClass("section-1-button-header-hover");
+    $(this).removeClass("section-1-button-header-active");
+  });
+
+  $sectionOneButtonHeader.mousedown(function() {
+    $(this).addClass("section-1-button-header-active");
+  });
+  $sectionOneButtonHeader.mouseup(function() {
+    $(this).removeClass("section-1-button-header-active");
+  });
+
+
+  $sectionOneButtonScroll.mouseenter(function() {
+    $(this).addClass("button-sub-hover");
+  });
+  $sectionOneButtonScroll.mouseleave(function() {
+    $(this).removeClass("button-sub-hover");
+    $(this).removeClass("button-sub-active");
+  });
+
+  $sectionOneButtonScroll.mousedown(function() {
+    $(this).addClass("button-sub-active");
+  });
+  $sectionOneButtonScroll.mouseup(function() {
+    $(this).removeClass("button-sub-active");
   });
 
 

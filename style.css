@@ -91,6 +91,14 @@ a {
   font-size: 16px;
 }
 
+.button-sub-hover {
+  transform: scale(1.2);
+}
+
+.button-sub-active {
+  transform: scale(0.99);
+}
+
 
 /* -------------------------- SECTION 1 CONTAINER -------------------------- */
 #section-1-background {
@@ -140,6 +148,10 @@ ul {
   color: rgb(255, 255, 255);
 
   cursor: pointer;
+}
+
+.nav-menu-item:active {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #menu-home {
@@ -290,6 +302,26 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.section-1-button-header-hover {
+  transform: scale(1.15);
+}
+
+.section-1-button-header-active {
+  transform: scale(0.98);
+}
+
+#section-1-button-header:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#section-1-button-header:active {
+  color: rgba(255, 255, 255, 1.0);
+
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 #section-1-button-scroll {
@@ -321,6 +353,12 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+#section-1-button-scroll:active {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -479,6 +517,10 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+.thumbnail-button:active {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 #thumbnail-left-button {
@@ -744,6 +786,10 @@ ul {
   cursor: pointer;
 }
 
+#view-more-work-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
+}
+
 
 /* -------------------------- SECTION 4 CONTAINER -------------------------- */
 #section-4-container {
@@ -942,6 +988,10 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+#see-all-clients-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -1233,6 +1283,10 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+#team-work-with-us-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 
