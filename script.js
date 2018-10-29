@@ -10,6 +10,10 @@ $(document).ready(function() {
   var $selectionTestimonial = $("#selection-testimonial");
   var $menuContact = $("#menu-contact");
   var $selectionContact = $("#selection-contact");
+  var $sectionOneButtonHeader = $("#section-1-button-header");
+  var $sectionOneButtonScroll = $("#section-1-button-scroll");
+
+  var $thumbnailButton = $(".thumbnail-button");
 
   var $workMenuPhotographyButton = $("#work-menu-photography-button");
   var $workMenuPhotography = $("#work-menu-photography");
@@ -19,9 +23,14 @@ $(document).ready(function() {
   var $workMenuPrint = $("#work-menu-print");
   var $workExRowTop = $(".work-ex-row-top");
   var $workExRowBottom = $(".work-ex-row-bottom");
+  var $viewMoreWorkButton = $("#view-more-work-button");
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
-  var $testimonialArrowRight= $("#testimonial-arrow-right");
+  var $testimonialArrowRight = $("#testimonial-arrow-right");
+
+  var $seeAllClientsButton = $("#see-all-clients-button");
+
+  var $teamWorkWithUsButton = $("#team-work-with-us-button");
 
 
   workTypeButtonActive = "photography";
@@ -104,6 +113,39 @@ $(document).ready(function() {
   });
 
 
+  $sectionOneButtonHeader.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $sectionOneButtonHeader.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $sectionOneButtonHeader.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $sectionOneButtonHeader.mouseup(function() {
+    $(this).removeClass("button-main-active");
+  });
+
+
+/* ---------------- SECTION 2 CONTAINER ---------------- */
+  $thumbnailButton.mouseenter(function() {
+    $(this).addClass("button-sub-hover");
+  });
+  $thumbnailButton.mouseleave(function() {
+    $(this).removeClass("button-sub-hover");
+    $(this).removeClass("button-sub-active");
+  });
+
+  $thumbnailButton.mousedown(function() {
+    $(this).addClass("button-sub-active");
+  });
+  $thumbnailButton.mouseup(function() {
+    $(this).removeClass("button-sub-active");
+  });
+
+
 /* ---------------- SECTION 3 CONTAINER ---------------- */
   $workMenuPhotographyButton.on("click", function() {
     workTypeButtonActive = "photography";
@@ -176,6 +218,22 @@ $(document).ready(function() {
   });
 
 
+  $viewMoreWorkButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $viewMoreWorkButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $viewMoreWorkButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $viewMoreWorkButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
+  });
+
+
 /* ---------------- SECTION 4 CONTAINER ---------------- */
   $testimonialArrowLeft.mouseenter(function() {
     $(this).addClass("testimonial-arrow-hover");
@@ -208,6 +266,40 @@ $(document).ready(function() {
   });
   $testimonialArrowRight.mouseup(function() {
     $(this).removeClass("testimonial-arrow-active");
+  });
+
+
+/* ---------------- SECTION 5 CONTAINER ---------------- */
+  $seeAllClientsButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $seeAllClientsButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $seeAllClientsButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $seeAllClientsButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
+  });
+
+
+/* ---------------- SECTION 6 CONTAINER ---------------- */
+  $teamWorkWithUsButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $teamWorkWithUsButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $teamWorkWithUsButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $teamWorkWithUsButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
   });
 
 });

@@ -91,6 +91,22 @@ a {
   font-size: 16px;
 }
 
+.button-main-hover {
+  transform: scale(1.15);
+}
+
+.button-main-active {
+  transform: scale(0.98);
+}
+
+.button-sub-hover {
+  transform: scale(1.2);
+}
+
+.button-sub-active {
+  transform: scale(0.99);
+}
+
 
 /* -------------------------- SECTION 1 CONTAINER -------------------------- */
 #section-1-background {
@@ -140,6 +156,10 @@ ul {
   color: rgb(255, 255, 255);
 
   cursor: pointer;
+}
+
+.nav-menu-item:active {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #menu-home {
@@ -290,6 +310,18 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+#section-1-button-header:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#section-1-button-header:active {
+  color: rgba(255, 255, 255, 1.0);
+
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 #section-1-button-scroll {
@@ -321,6 +353,10 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+#section-1-button-scroll:active {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -479,6 +515,12 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.thumbnail-button:active {
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 #thumbnail-left-button {
@@ -742,6 +784,12 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+#view-more-work-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -942,6 +990,12 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+#see-all-clients-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -1233,6 +1287,12 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+#team-work-with-us-button:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.18);
 }
 
 
@@ -1396,6 +1456,14 @@ ul {
   cursor: pointer;
 }
 
+.recent-posts-subhead:hover {
+  color: rgba(204, 204, 204, 0.8);
+}
+
+.recent-posts-subhead:active {
+  color: rgba(204, 204, 204, 1.0);
+}
+
 #recent-posts-subhead-1 {
   top: 75.863px;
 }
@@ -1435,6 +1503,14 @@ ul {
   outline: none;
 
   cursor: pointer;
+}
+
+.recent-posts-button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.recent-posts-button:active {
+  color: rgba(255, 255, 255, 1.0);
 }
 
 #recent-posts-button-1 {
@@ -1508,7 +1584,11 @@ ul {
 }
 
 #contact-email:hover {
-  opacity: 0.7;
+  color: rgba(204, 204, 204, 0.8);
+}
+
+#contact-email:active {
+  color: rgba(204, 204, 204, 1.0);
 }
 
 .contact-us-user-info {
@@ -1562,6 +1642,14 @@ ul {
   background-color: rgb(43, 155, 43);
 
   cursor: pointer;
+}
+
+#contact-us-user-submit:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#contact-us-user-submit:active {
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 
