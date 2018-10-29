@@ -17,6 +17,8 @@ $(document).ready(function() {
   var $workMenuDesign = $("#work-menu-design");
   var $workMenuPrintButton = $("#work-menu-print-button");
   var $workMenuPrint = $("#work-menu-print");
+  var $workExRowTop = $(".work-ex-row-top");
+  var $workExRowBottom = $(".work-ex-row-bottom");
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
   var $testimonialArrowRight= $("#testimonial-arrow-right");
@@ -139,6 +141,38 @@ $(document).ready(function() {
     workTypeButtonActive = "print";
 
     workTypeButtonSwap();
+  });
+
+
+  $workExRowTop.mouseenter(function() {
+    $(this).addClass("work-ex-hover");
+  });
+  $workExRowTop.mouseleave(function() {
+    $(this).removeClass("work-ex-hover");
+    $(this).removeClass("work-ex-active");
+  });
+
+  $workExRowTop.mousedown(function() {
+    $(this).addClass("work-ex-active");
+  });
+  $workExRowTop.mouseup(function() {
+    $(this).removeClass("work-ex-active");
+  });
+
+
+  $workExRowBottom.mouseenter(function() {
+    $(this).addClass("work-ex-hover");
+  });
+  $workExRowBottom.mouseleave(function() {
+    $(this).removeClass("work-ex-hover");
+    $(this).removeClass("work-ex-active");
+  });
+
+  $workExRowBottom.mousedown(function() {
+    $(this).addClass("work-ex-active");
+  });
+  $workExRowBottom.mouseup(function() {
+    $(this).removeClass("work-ex-active");
   });
 
 
