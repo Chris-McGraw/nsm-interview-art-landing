@@ -13,6 +13,8 @@ $(document).ready(function() {
   var $sectionOneButtonHeader = $("#section-1-button-header");
   var $sectionOneButtonScroll = $("#section-1-button-scroll");
 
+  var $thumbnailButton = $(".thumbnail-button");
+
   var $workMenuPhotographyButton = $("#work-menu-photography-button");
   var $workMenuPhotography = $("#work-menu-photography");
   var $workMenuDesignButton = $("#work-menu-design-button");
@@ -134,6 +136,23 @@ $(document).ready(function() {
     $(this).addClass("button-sub-active");
   });
   $sectionOneButtonScroll.mouseup(function() {
+    $(this).removeClass("button-sub-active");
+  });
+
+
+/* ---------------- SECTION 2 CONTAINER ---------------- */
+  $thumbnailButton.mouseenter(function() {
+    $(this).addClass("button-sub-hover");
+  });
+  $thumbnailButton.mouseleave(function() {
+    $(this).removeClass("button-sub-hover");
+    $(this).removeClass("button-sub-active");
+  });
+
+  $thumbnailButton.mousedown(function() {
+    $(this).addClass("button-sub-active");
+  });
+  $thumbnailButton.mouseup(function() {
     $(this).removeClass("button-sub-active");
   });
 
