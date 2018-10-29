@@ -91,6 +91,14 @@ a {
   font-size: 16px;
 }
 
+.button-main-hover {
+  transform: scale(1.15);
+}
+
+.button-main-active {
+  transform: scale(0.98);
+}
+
 .button-sub-hover {
   transform: scale(1.2);
 }
@@ -304,14 +312,6 @@ ul {
   cursor: pointer;
 
   transition: transform 200ms ease-in-out;
-}
-
-.section-1-button-header-hover {
-  transform: scale(1.15);
-}
-
-.section-1-button-header-active {
-  transform: scale(0.98);
 }
 
 #section-1-button-header:hover {
@@ -1285,6 +1285,8 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
 }
 
 #team-work-with-us-button:active {

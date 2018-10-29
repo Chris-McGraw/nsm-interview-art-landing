@@ -25,7 +25,9 @@ $(document).ready(function() {
   var $workExRowBottom = $(".work-ex-row-bottom");
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
-  var $testimonialArrowRight= $("#testimonial-arrow-right");
+  var $testimonialArrowRight = $("#testimonial-arrow-right");
+
+  var $teamWorkWithUsButton = $("#team-work-with-us-button");
 
 
   workTypeButtonActive = "photography";
@@ -109,18 +111,18 @@ $(document).ready(function() {
 
 
   $sectionOneButtonHeader.mouseenter(function() {
-    $(this).addClass("section-1-button-header-hover");
+    $(this).addClass("button-main-hover");
   });
   $sectionOneButtonHeader.mouseleave(function() {
-    $(this).removeClass("section-1-button-header-hover");
-    $(this).removeClass("section-1-button-header-active");
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
   });
 
   $sectionOneButtonHeader.mousedown(function() {
-    $(this).addClass("section-1-button-header-active");
+    $(this).addClass("button-main-active");
   });
   $sectionOneButtonHeader.mouseup(function() {
-    $(this).removeClass("section-1-button-header-active");
+    $(this).removeClass("button-main-active");
   });
 
 
@@ -261,6 +263,23 @@ $(document).ready(function() {
   });
   $testimonialArrowRight.mouseup(function() {
     $(this).removeClass("testimonial-arrow-active");
+  });
+
+
+/* ---------------- SECTION 6 CONTAINER ---------------- */
+  $teamWorkWithUsButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $teamWorkWithUsButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $teamWorkWithUsButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $teamWorkWithUsButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
   });
 
 });
