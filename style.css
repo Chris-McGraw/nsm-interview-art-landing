@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
 
-  /* -moz-user-select: none;
-  user-select: none; */
   cursor: default;
 }
 
@@ -636,8 +634,6 @@ ul {
 .work-menu-item {
   position: absolute;
   z-index: 104;
-
-  /* top: 176.135px; */
   top: 8px;
 
   text-align: center;
@@ -649,21 +645,18 @@ ul {
 }
 
 #work-menu-photography {
-  /* left: 460.937px; */
   left: 15px;
 
   color: rgb(255, 255, 255);
 }
 
 #work-menu-design {
-  /* left: 588.937px; */
   left: 143px;
 
   color: rgb(43, 155, 43);
 }
 
 #work-menu-print {
-  /* left: 675.937px; */
   left: 230px;
 
   color: rgb(43, 155, 43);
@@ -826,6 +819,18 @@ ul {
   color: rgb(183, 179, 179);
 }
 
+.testimonial-fade-in {
+  opacity: 1.0 !important;
+
+  transition: opacity 400ms ease-in-out;
+}
+
+.testimonial-fade-out {
+  opacity: 0.0 !important;
+
+  transition: opacity 400ms ease-in-out;
+}
+
 #testimonial-arrow-left {
   position: absolute;
   z-index: 10;
@@ -852,6 +857,27 @@ ul {
   font-family: "Proxima Nova";
   font-size: 16px;
   color: rgb(68, 68, 68);
+
+  opacity: 1.0;
+}
+
+#testimonial-body-ghost {
+  position: absolute;
+  z-index: 116;
+  top: 173.01px;
+  left: 0;
+  right: 0;
+
+  width: 440px;
+  margin: auto;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+
+  opacity: 0.0;
 }
 
 #testimonial-arrow-right {
@@ -903,6 +929,23 @@ ul {
   font-family: "Proxima Nova";
   font-size: 16px;
   color: rgb(68, 68, 68);
+
+  opacity: 1.0;
+}
+
+#testimonial-client-name-ghost {
+  position: absolute;
+  z-index: 118;
+  top: 5px;
+  left: 55px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+
+  opacity: 0.0;
 }
 
 #testimonial-client-title {
@@ -917,6 +960,24 @@ ul {
   font-family: "Proxima Nova";
   font-size: 16px;
   color: rgb(204, 204, 204);
+
+  opacity: 1.0;
+}
+
+#testimonial-client-title-ghost {
+  position: absolute;
+  z-index: 119;
+  top: 25px;
+  left: auto;
+  right: 9px;
+
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  color: rgb(204, 204, 204);
+
+  opacity: 0.0;
 }
 
 
@@ -2328,6 +2389,13 @@ ul {
   }
 
   #testimonial-body {
+    top: 183.01px;
+
+    width: 240px;
+    margin: auto;
+  }
+
+  #testimonial-body-ghost {
     top: 183.01px;
 
     width: 240px;
