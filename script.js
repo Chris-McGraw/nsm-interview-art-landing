@@ -24,6 +24,7 @@ $(document).ready(function() {
   var $workExRowTop = $(".work-ex-row-top");
   var $workExRowBottom = $(".work-ex-row-bottom");
   var $viewMoreWorkButton = $("#view-more-work-button");
+  var workTypeButtonActive = "photography";
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
   var $testimonialArrowRight = $("#testimonial-arrow-right");
@@ -33,16 +34,12 @@ $(document).ready(function() {
   var $testimonialClientNameGhost = $("#testimonial-client-name-ghost");
   var $testimonialClientTitle = $("#testimonial-client-title");
   var $testimonialClientTitleGhost = $("#testimonial-client-title-ghost");
+  var testimonialClient = "clientOne";
+  var suspendCrossFade = false;
 
   var $seeAllClientsButton = $("#see-all-clients-button");
 
   var $teamWorkWithUsButton = $("#team-work-with-us-button");
-
-
-  var workTypeButtonActive = "photography";
-
-  var testimonialClient = "clientOne";
-  var suspendCrossFade = false;
 
 
 /* ------------------------- FUNCTION DECLARATIONS ------------------------- */

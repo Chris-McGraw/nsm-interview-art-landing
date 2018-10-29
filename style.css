@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
 
-  /* -moz-user-select: none;
-  user-select: none; */
   cursor: default;
 }
 
@@ -636,8 +634,6 @@ ul {
 .work-menu-item {
   position: absolute;
   z-index: 104;
-
-  /* top: 176.135px; */
   top: 8px;
 
   text-align: center;
@@ -649,21 +645,18 @@ ul {
 }
 
 #work-menu-photography {
-  /* left: 460.937px; */
   left: 15px;
 
   color: rgb(255, 255, 255);
 }
 
 #work-menu-design {
-  /* left: 588.937px; */
   left: 143px;
 
   color: rgb(43, 155, 43);
 }
 
 #work-menu-print {
-  /* left: 675.937px; */
   left: 230px;
 
   color: rgb(43, 155, 43);
