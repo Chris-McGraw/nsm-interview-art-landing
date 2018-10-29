@@ -2500,5 +2500,15 @@ ul {
     top: 7457px;
     width: 100%;
   }
+}
 
+
+
+
+
+/* -------------------------- MEDIA QUERY <= 706 -------------------------- */
+@media screen and (max-width: 706px) {
+  #section-1-button-header {
+    top: 439px;
+  }
 }
