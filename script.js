@@ -129,22 +129,6 @@ $(document).ready(function() {
   });
 
 
-  $sectionOneButtonScroll.mouseenter(function() {
-    $(this).addClass("button-sub-hover");
-  });
-  $sectionOneButtonScroll.mouseleave(function() {
-    $(this).removeClass("button-sub-hover");
-    $(this).removeClass("button-sub-active");
-  });
-
-  $sectionOneButtonScroll.mousedown(function() {
-    $(this).addClass("button-sub-active");
-  });
-  $sectionOneButtonScroll.mouseup(function() {
-    $(this).removeClass("button-sub-active");
-  });
-
-
 /* ---------------- SECTION 2 CONTAINER ---------------- */
   $thumbnailButton.mouseenter(function() {
     $(this).addClass("button-sub-hover");
