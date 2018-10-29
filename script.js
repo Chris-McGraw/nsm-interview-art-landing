@@ -23,6 +23,7 @@ $(document).ready(function() {
   var $workMenuPrint = $("#work-menu-print");
   var $workExRowTop = $(".work-ex-row-top");
   var $workExRowBottom = $(".work-ex-row-bottom");
+  var $viewMoreWorkButton = $("#view-more-work-button");
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
   var $testimonialArrowRight = $("#testimonial-arrow-right");
@@ -228,6 +229,22 @@ $(document).ready(function() {
   });
   $workExRowBottom.mouseup(function() {
     $(this).removeClass("work-ex-active");
+  });
+
+
+  $viewMoreWorkButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $viewMoreWorkButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $viewMoreWorkButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $viewMoreWorkButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
   });
 
 
