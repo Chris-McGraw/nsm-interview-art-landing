@@ -18,6 +18,9 @@ $(document).ready(function() {
   var $workMenuPrintButton = $("#work-menu-print-button");
   var $workMenuPrint = $("#work-menu-print");
 
+  var $testimonialArrowLeft = $("#testimonial-arrow-left");
+  var $testimonialArrowRight= $("#testimonial-arrow-right");
+
 
   workTypeButtonActive = "photography";
 
@@ -138,5 +141,39 @@ $(document).ready(function() {
     workTypeButtonSwap();
   });
 
+
+/* ---------------- SECTION 4 CONTAINER ---------------- */
+  $testimonialArrowLeft.mouseenter(function() {
+    $(this).addClass("testimonial-arrow-hover");
+  });
+
+  $testimonialArrowLeft.mouseleave(function() {
+    $(this).removeClass("testimonial-arrow-hover");
+    $(this).removeClass("testimonial-arrow-active");
+  });
+
+  $testimonialArrowLeft.mousedown(function() {
+    $(this).addClass("testimonial-arrow-active");
+  });
+  $testimonialArrowLeft.mouseup(function() {
+    $(this).removeClass("testimonial-arrow-active");
+  });
+
+
+  $testimonialArrowRight.mouseenter(function() {
+    $(this).addClass("testimonial-arrow-hover");
+  });
+
+  $testimonialArrowRight.mouseleave(function() {
+    $(this).removeClass("testimonial-arrow-hover");
+    $(this).removeClass("testimonial-arrow-active");
+  });
+
+  $testimonialArrowRight.mousedown(function() {
+    $(this).addClass("testimonial-arrow-active");
+  });
+  $testimonialArrowRight.mouseup(function() {
+    $(this).removeClass("testimonial-arrow-active");
+  });
 
 });
