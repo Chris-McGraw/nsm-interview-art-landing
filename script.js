@@ -27,13 +27,19 @@ $(document).ready(function() {
 
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
   var $testimonialArrowRight = $("#testimonial-arrow-right");
+  var $testimonialBody = $("#testimonial-body");
+  var $testimonialBodyGhost = $("#testimonial-body-ghost");
+  var $testimonialClientName = $("#testimonial-client-name");
+  var $testimonialClientNameGhost = $("#testimonial-client-name-ghost");
 
   var $seeAllClientsButton = $("#see-all-clients-button");
 
   var $teamWorkWithUsButton = $("#team-work-with-us-button");
 
 
-  workTypeButtonActive = "photography";
+  var workTypeButtonActive = "photography";
+
+  var testimonialClient = "clientOne";
 
 
 /* ------------------------- FUNCTION DECLARATIONS ------------------------- */
@@ -70,6 +76,33 @@ $(document).ready(function() {
 
       $workMenuDesignButton.css("background-color", "rgb(255, 255, 255)");
       $workMenuDesign.css("color", "rgb(43, 155, 43)");
+    }
+  }
+
+
+  function swapTestimonials() {
+    if(testimonialClient === "clientOne") {
+      $testimonialBody.addClass("testimonial-fade-out");
+      $testimonialClientName.addClass("testimonial-fade-out");
+
+      $testimonialBodyGhost.removeClass("testimonial-fade-out")
+      $testimonialBodyGhost.addClass("testimonial-fade-in");
+      $testimonialClientNameGhost.removeClass("testimonial-fade-out")
+      $testimonialClientNameGhost.addClass("testimonial-fade-in");
+
+      testimonialClient = "clientTwo";
+    }
+
+    else if(testimonialClient === "clientTwo") {
+      $testimonialBodyGhost.addClass("testimonial-fade-out");
+      $testimonialClientNameGhost.addClass("testimonial-fade-out");
+
+      $testimonialBody.removeClass("testimonial-fade-out");
+      $testimonialBody.addClass("testimonial-fade-in");
+      $testimonialClientName.removeClass("testimonial-fade-out");
+      $testimonialClientName.addClass("testimonial-fade-in");
+
+      testimonialClient = "clientOne";
     }
   }
 
@@ -238,7 +271,6 @@ $(document).ready(function() {
   $testimonialArrowLeft.mouseenter(function() {
     $(this).addClass("testimonial-arrow-hover");
   });
-
   $testimonialArrowLeft.mouseleave(function() {
     $(this).removeClass("testimonial-arrow-hover");
     $(this).removeClass("testimonial-arrow-active");
@@ -251,11 +283,14 @@ $(document).ready(function() {
     $(this).removeClass("testimonial-arrow-active");
   });
 
+  $testimonialArrowLeft.on("click", function() {
+    swapTestimonials();
+  });
+
 
   $testimonialArrowRight.mouseenter(function() {
     $(this).addClass("testimonial-arrow-hover");
   });
-
   $testimonialArrowRight.mouseleave(function() {
     $(this).removeClass("testimonial-arrow-hover");
     $(this).removeClass("testimonial-arrow-active");
@@ -266,6 +301,10 @@ $(document).ready(function() {
   });
   $testimonialArrowRight.mouseup(function() {
     $(this).removeClass("testimonial-arrow-active");
+  });
+
+  $testimonialArrowRight.on("click", function() {
+    swapTestimonials();
   });
 
 
