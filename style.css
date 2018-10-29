@@ -648,6 +648,8 @@ ul {
   height: 160px;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
 }
 
 #work-ex-1 {
@@ -680,6 +682,8 @@ ul {
   height: 160px;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
 }
 
 #work-ex-6 {
@@ -701,6 +705,14 @@ ul {
 #work-ex-10 {
   left: auto;
   right: 0;
+}
+
+.work-ex-hover {
+  transform: scale(1.1);
+}
+
+.work-ex-active {
+  transform: scale(0.95);
 }
 
 #view-more-work-button {
@@ -773,6 +785,8 @@ ul {
   left: 170px;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
 }
 
 #testimonial-body {
@@ -799,6 +813,16 @@ ul {
   right: 170px;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
+}
+
+.testimonial-arrow-hover {
+  transform: scale(1.25);
+}
+
+.testimonial-arrow-active {
+  transform: scale(0.95);
 }
 
 #testimonial-client-container {
