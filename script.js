@@ -28,6 +28,8 @@ $(document).ready(function() {
   var $testimonialArrowLeft = $("#testimonial-arrow-left");
   var $testimonialArrowRight = $("#testimonial-arrow-right");
 
+  var $seeAllClientsButton = $("#see-all-clients-button");
+
   var $teamWorkWithUsButton = $("#team-work-with-us-button");
 
 
@@ -280,6 +282,23 @@ $(document).ready(function() {
   });
   $testimonialArrowRight.mouseup(function() {
     $(this).removeClass("testimonial-arrow-active");
+  });
+
+
+/* ---------------- SECTION 5 CONTAINER ---------------- */
+  $seeAllClientsButton.mouseenter(function() {
+    $(this).addClass("button-main-hover");
+  });
+  $seeAllClientsButton.mouseleave(function() {
+    $(this).removeClass("button-main-hover");
+    $(this).removeClass("button-main-active");
+  });
+
+  $seeAllClientsButton.mousedown(function() {
+    $(this).addClass("button-main-active");
+  });
+  $seeAllClientsButton.mouseup(function() {
+    $(this).removeClass("button-main-active");
   });
 
 

@@ -992,6 +992,8 @@ ul {
   outline: none;
 
   cursor: pointer;
+
+  transition: transform 200ms ease-in-out;
 }
 
 #see-all-clients-button:active {
